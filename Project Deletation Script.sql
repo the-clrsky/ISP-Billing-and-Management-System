@@ -44,9 +44,6 @@ PURGE RECYCLEBIN;
 --- Go to sys USER
 conn sys/s as sysdba
 
--- Alter Session (Applicable for container database installation)
--- ALTER SESSION SET CONTAINER = orclpdb;
-
 --- Drop USER
 DROP USER isp_billing CASCADE;
 

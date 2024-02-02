@@ -1,6 +1,3 @@
--- Alter Session (Applicable for container database installation)
--- ALTER SESSION SET CONTAINER = orclpdb;
-
 -- Create User
 CREATE USER isp_billing IDENTIFIED BY isp_billing;
 
