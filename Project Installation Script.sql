@@ -746,7 +746,7 @@ VALUES (pop_id_seq.NEXTVAL, 'Dhanmondi', 'Dhanmondi 27 Mor',
 (SELECT emp_id FROM employees WHERE emp_first_name LIKE 'Raja'));
 
 commit;
-
+---------------------------------------------------------------------------------------------------------------------------------------------
 --- Offer_Details
 INSERT INTO offer_details
 VALUES (ofr_dtls_id_seq.NEXTVAL, 'New User', '01/Jan/2024', '31/Dec/2024', 1000);
