@@ -172,25 +172,25 @@ CONSTRAINT cust_offer_id_fk FOREIGN KEY (offer_id) REFERENCES offer_master(offer
 CONSTRAINT cust_pop_id_fk FOREIGN KEY (pop_id) REFERENCES pop(pop_id),
 CONSTRAINT cust_area_id_fk FOREIGN KEY (area_id) REFERENCES area_master(area_id));
 
---- Package_Master
-ALTER TABLE package_master ADD (
-pkg_dtls_id NUMBER(10),
+--- Package_Details
+ALTER TABLE package_details ADD (
+pkg_id NUMBER(10),
 pkg_type VARCHAR2(100),
-CONSTRAINT pkg_m_pkg_dtls_id_fk FOREIGN KEY (pkg_dtls_id) REFERENCES package_details(pkg_dtls_id));
+CONSTRAINT pkg_d_pkg_id_fk FOREIGN KEY (pkg_id) REFERENCES package_master(pkg_id));
 
---- Offer_Master
-ALTER TABLE offer_master ADD (
+--- Offer_Details
+ALTER TABLE offer_details ADD (
 area_id NUMBER(10),
-offer_dtls_id NUMBER(10),
-CONSTRAINT offer_m_area_id_fk FOREIGN KEY (area_id) REFERENCES area_master(area_id),
-CONSTRAINT offer_m_offer_dtls_id_fk FOREIGN KEY (offer_dtls_id) REFERENCES offer_details(offer_dtls_id));
+offer_id NUMBER(10),
+CONSTRAINT offer_d_area_id_fk FOREIGN KEY (area_id) REFERENCES area_master(area_id),
+CONSTRAINT offer_d_offer_id_fk FOREIGN KEY (offer_id) REFERENCES offer_master(offer_id));
 
---- Area_Master
-ALTER TABLE area_master ADD (
+--- Area_Details
+ALTER TABLE area_details ADD (
 area_manager_id NUMBER(10),
-area_dtls_id NUMBER(10),
-CONSTRAINT area_m_area_manager_id FOREIGN KEY (area_manager_id) REFERENCES employees(emp_id),
-CONSTRAINT area_m_area_dtls_id FOREIGN KEY (area_dtls_id) REFERENCES area_details(area_dtls_id));
+area_id NUMBER(10),
+CONSTRAINT area_d_area_manager_id FOREIGN KEY (area_manager_id) REFERENCES employees(emp_id),
+CONSTRAINT area_d_area_id FOREIGN KEY (area_id) REFERENCES area_master(area_id));
 
 --- Pop
 ALTER TABLE pop ADD (
@@ -203,10 +203,10 @@ CONSTRAINT pop_pop_manager_id_fk FOREIGN KEY (pop_manager_id) REFERENCES employe
 CONSTRAINT pop_line_tech_id_fk FOREIGN KEY (line_tech_id) REFERENCES employees(emp_id),
 CONSTRAINT pop_network_eng_id_fk FOREIGN KEY (network_eng_id) REFERENCES employees(emp_id));
 
---- Payment_Master
-ALTER TABLE payment_master ADD (
-payment_dtls_id NUMBER(10),
-CONSTRAINT payment_m_payment_dtls_id FOREIGN KEY (payment_dtls_id) REFERENCES payment_details(payment_dtls_id));
+--- Payment_Details
+ALTER TABLE payment_details ADD (
+payment_id NUMBER(10),
+CONSTRAINT payment_d_payment_id FOREIGN KEY (payment_id) REFERENCES payment_master(payment_id));
 
 --- Usage
 ALTER TABLE usage ADD (
@@ -383,39 +383,6 @@ INCREMENT BY 1
 MAXVALUE 9999999;
 
 ------ Input Demo Data ------
---- Package_Details
-INSERT INTO  package_details
-VALUES (pkg_dtls_id_seq.NEXTVAL, 300, 100, 1000, '8:00 PM', '1:59 AM', '2:00 AM', '7:59 PM', 'Shared');
-
-INSERT INTO  package_details
-VALUES (pkg_dtls_id_seq.NEXTVAL, 500, 100, 1000, '8:00 PM', '1:59 AM', '2:00 AM', '7:59 PM', 'Shared');
-
-INSERT INTO  package_details
-VALUES (pkg_dtls_id_seq.NEXTVAL, 600, 100, 1000, '8:00 PM', '1:59 AM', '2:00 AM', '7:59 PM', 'Shared');
-
-INSERT INTO  package_details
-VALUES (pkg_dtls_id_seq.NEXTVAL, 700, 100, 1000, '8:00 PM', '1:59 AM', '2:00 AM', '7:59 PM', 'Shared');
-
-INSERT INTO  package_details
-VALUES (pkg_dtls_id_seq.NEXTVAL, 800, 100, 1000, '8:00 PM', '1:59 AM', '2:00 AM', '7:59 PM', 'Shared');
-
-INSERT INTO  package_details
-VALUES (pkg_dtls_id_seq.NEXTVAL, 1000, 100, 1000, null, null, null, null, 'Dedicated');
-
-INSERT INTO  package_details
-VALUES (pkg_dtls_id_seq.NEXTVAL, 2000, 100, 1000, null, null, null, null, 'Dedicated');
-
-INSERT INTO  package_details
-VALUES (pkg_dtls_id_seq.NEXTVAL, 2500, 100, 1000, null, null, null, null, 'Dedicated');
-
-INSERT INTO  package_details
-VALUES (pkg_dtls_id_seq.NEXTVAL, 3000, 100, 1000, null, null, null, null, 'Dedicated');
-
-INSERT INTO  package_details
-VALUES (pkg_dtls_id_seq.NEXTVAL, 3500, 100, 1000, null, null, null, null, 'Dedicated');
-
-commit;
-
 --- Package_Master
 INSERT INTO package_master
 VALUES (pkg_id_seq.NEXTVAL, 'Bronze', 600, '25 Mbps', 20000, 'Home');
@@ -449,38 +416,45 @@ VALUES (pkg_id_seq.NEXTVAL, 'Business Gold', 4000, '200 Mbps', 20090, 'Corporate
 
 commit;
 
---- Area_Details
-INSERT INTO area_details
-VALUES (area_dtls_id_seq.NEXTVAL, 'Dhaka', 'Dhaka', 'Dhaka North', 'Mirpur Model');
+--- Package_Details
+INSERT INTO  package_details
+VALUES (pkg_dtls_id_seq.NEXTVAL, 300, 100, 1000, '8:00 PM', '1:59 AM', '2:00 AM', '7:59 PM', 'Shared');
 
-INSERT INTO area_details
-VALUES (area_dtls_id_seq.NEXTVAL, 'Dhaka', 'Dhaka', 'Dhaka North', 'Pallabi');
+INSERT INTO  package_details
+VALUES (pkg_dtls_id_seq.NEXTVAL, 500, 100, 1000, '8:00 PM', '1:59 AM', '2:00 AM', '7:59 PM', 'Shared');
 
-INSERT INTO area_details
-VALUES (area_dtls_id_seq.NEXTVAL, 'Dhaka', 'Dhaka', 'Dhaka North', 'Darussalam');
+INSERT INTO  package_details
+VALUES (pkg_dtls_id_seq.NEXTVAL, 600, 100, 1000, '8:00 PM', '1:59 AM', '2:00 AM', '7:59 PM', 'Shared');
 
-INSERT INTO area_details
-VALUES (area_dtls_id_seq.NEXTVAL, 'Dhaka', 'Dhaka', 'Dhaka North', 'Mohammadpur');
+INSERT INTO  package_details
+VALUES (pkg_dtls_id_seq.NEXTVAL, 700, 100, 1000, '8:00 PM', '1:59 AM', '2:00 AM', '7:59 PM', 'Shared');
 
-INSERT INTO area_details
-VALUES (area_dtls_id_seq.NEXTVAL, 'Dhaka', 'Dhaka', 'Dhaka North', 'Sher-E-Bangla Nagar');
+INSERT INTO  package_details
+VALUES (pkg_dtls_id_seq.NEXTVAL, 800, 100, 1000, '8:00 PM', '1:59 AM', '2:00 AM', '7:59 PM', 'Shared');
 
-INSERT INTO area_details
-VALUES (area_dtls_id_seq.NEXTVAL, 'Dhaka', 'Dhaka', 'Dhaka North', 'Rupnagar');
+INSERT INTO  package_details
+VALUES (pkg_dtls_id_seq.NEXTVAL, 1000, 100, 1000, null, null, null, null, 'Dedicated');
 
-INSERT INTO area_details
-VALUES (area_dtls_id_seq.NEXTVAL, 'Dhaka', 'Dhaka', 'Dhaka North', 'Shah Ali');
+INSERT INTO  package_details
+VALUES (pkg_dtls_id_seq.NEXTVAL, 2000, 100, 1000, null, null, null, null, 'Dedicated');
 
-INSERT INTO area_details
-VALUES (area_dtls_id_seq.NEXTVAL, 'Dhaka', 'Dhaka', 'Dhaka North', 'Kafrul');
+INSERT INTO  package_details
+VALUES (pkg_dtls_id_seq.NEXTVAL, 2500, 100, 1000, null, null, null, null, 'Dedicated');
 
-INSERT INTO area_details
-VALUES (area_dtls_id_seq.NEXTVAL, 'Dhaka', 'Dhaka', 'Dhaka South', 'Kalabagan');
+INSERT INTO  package_details
+VALUES (pkg_dtls_id_seq.NEXTVAL, 3000, 100, 1000, null, null, null, null, 'Dedicated');
 
-INSERT INTO area_details
-VALUES (area_dtls_id_seq.NEXTVAL, 'Dhaka', 'Dhaka', 'Dhaka South', 'Dhanmondi');
+INSERT INTO  package_details
+VALUES (pkg_dtls_id_seq.NEXTVAL, 3500, 100, 1000, null, null, null, null, 'Dedicated');
 
 commit;
+
+
+
+
+
+
+
 
 --- Departments
 INSERT INTO departments
@@ -667,6 +641,39 @@ VALUES (area_id_seq.NEXTVAL, 'Dhanmondi',
 
 commit;
 
+--- Area_Details
+INSERT INTO area_details
+VALUES (area_dtls_id_seq.NEXTVAL, 'Dhaka', 'Dhaka', 'Dhaka North', 'Mirpur Model');
+
+INSERT INTO area_details
+VALUES (area_dtls_id_seq.NEXTVAL, 'Dhaka', 'Dhaka', 'Dhaka North', 'Pallabi');
+
+INSERT INTO area_details
+VALUES (area_dtls_id_seq.NEXTVAL, 'Dhaka', 'Dhaka', 'Dhaka North', 'Darussalam');
+
+INSERT INTO area_details
+VALUES (area_dtls_id_seq.NEXTVAL, 'Dhaka', 'Dhaka', 'Dhaka North', 'Mohammadpur');
+
+INSERT INTO area_details
+VALUES (area_dtls_id_seq.NEXTVAL, 'Dhaka', 'Dhaka', 'Dhaka North', 'Sher-E-Bangla Nagar');
+
+INSERT INTO area_details
+VALUES (area_dtls_id_seq.NEXTVAL, 'Dhaka', 'Dhaka', 'Dhaka North', 'Rupnagar');
+
+INSERT INTO area_details
+VALUES (area_dtls_id_seq.NEXTVAL, 'Dhaka', 'Dhaka', 'Dhaka North', 'Shah Ali');
+
+INSERT INTO area_details
+VALUES (area_dtls_id_seq.NEXTVAL, 'Dhaka', 'Dhaka', 'Dhaka North', 'Kafrul');
+
+INSERT INTO area_details
+VALUES (area_dtls_id_seq.NEXTVAL, 'Dhaka', 'Dhaka', 'Dhaka South', 'Kalabagan');
+
+INSERT INTO area_details
+VALUES (area_dtls_id_seq.NEXTVAL, 'Dhaka', 'Dhaka', 'Dhaka South', 'Dhanmondi');
+
+commit;
+
 --- pop
 INSERT INTO pop
 VALUES (pop_id_seq.NEXTVAL, 'Mirpur - 2', '24/1, Barek Mollar Mor',
@@ -746,7 +753,7 @@ VALUES (pop_id_seq.NEXTVAL, 'Dhanmondi', 'Dhanmondi 27 Mor',
 (SELECT emp_id FROM employees WHERE emp_first_name LIKE 'Raja'));
 
 commit;
----------------------------------------------------------------------------------------------------------------------------------------------
+
 --- Offer_Details
 INSERT INTO offer_details
 VALUES (ofr_dtls_id_seq.NEXTVAL, 'New User', '01/Jan/2024', '31/Dec/2024', 1000);
