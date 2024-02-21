@@ -1,3 +1,6 @@
+-- To delete, first connect to the isp_billing user.
+-- Then, RUN this script.
+
 --- Drop Sequences
 DROP SEQUENCE AREA_DTLS_ID_SEQ;
 DROP SEQUENCE AREA_ID_SEQ;

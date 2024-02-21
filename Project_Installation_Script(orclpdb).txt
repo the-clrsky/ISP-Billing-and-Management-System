@@ -1,3 +1,10 @@
+-- To Install, first connect to >> sys as sysdba <<
+-- With password >> s <<
+-- Then, RUN this script.
+
+-- Alter Session
+ALTER SESSION SET CONTAINER = orclpdb;
+
 -- Create User
 CREATE USER isp_billing IDENTIFIED BY isp_billing;
 
@@ -9,7 +16,7 @@ TO isp_billing;
 ALTER USER ISP_BILLING QUOTA 10G ON USERS;
 
 -- Connect to User
-CONN isp_billing/isp_billing@//localhost:1521/orcl;
+CONN isp_billing/isp_billing@//localhost:1521/orclpdb;
 
 -- Create Tables --
 --- Customers

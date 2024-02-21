@@ -1,3 +1,7 @@
+-- To Install, first connect to >> sys as sysdba <<
+-- With password >> s <<
+-- Then, RUN this script.
+
 -- Create User
 CREATE USER isp_billing IDENTIFIED BY isp_billing;
 
