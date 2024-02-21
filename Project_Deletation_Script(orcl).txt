@@ -47,6 +47,9 @@ conn sys/s as sysdba
 --- Drop USER
 DROP USER isp_billing CASCADE;
 
+--- PURGE
+PURGE RECYCLEBIN;
+
 --- Project Deletation Successful ---
 
 

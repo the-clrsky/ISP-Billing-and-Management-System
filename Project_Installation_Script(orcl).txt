@@ -28,7 +28,7 @@ CREATE TABLE package_master (
 pkg_id NUMBER(10) CONSTRAINT package_id_pk PRIMARY KEY,
 pkg_name VARCHAR2(100),
 pkg_price NUMBER(10),
-pkg_speed VARCHAR2(100)
+pkg_speed VARCHAR2(100),
 pkg_type VARCHAR2(100));
 
 --- Package_Details
@@ -138,7 +138,8 @@ role VARCHAR2(100));
 --- Support
 CREATE TABLE support (
 ticket_id NUMBER(10) CONSTRAINT support_ticket_id_pk PRIMARY KEY,
-timestamp TIMESTAMP,
+create_timestamp TIMESTAMP,
+end_timestamp TIMESTAMP,
 complaint VARCHAR2 (100),
 ticket_status VARCHAR(100));
 
@@ -1067,22 +1068,33 @@ COMMIT;
 
 --- Support
 INSERT INTO support
-VALUES (TICKET_ID_SEQ.NEXTVAL, '28/Jul/2024 10:37:45', 'Customer connection down', 'Completed', 1001, 112);
+VALUES (TICKET_ID_SEQ.NEXTVAL, TO_TIMESTAMP('28/Jul/2024 10:37:45 AM', 'DD/Mon/YYYY HH:MI:SS AM'),
+TO_TIMESTAMP('28/Jul/2024 1:37:45 PM', 'DD/Mon/YYYY HH:MI:SS PM'),
+'Customer connection down', 'Closed', 1001, 112);
 
 INSERT INTO support
-VALUES (TICKET_ID_SEQ.NEXTVAL, '25/Sep/2024 11:37:45', 'Customer connection down', 'Completed', 1014, 113);
+VALUES (TICKET_ID_SEQ.NEXTVAL, TO_TIMESTAMP('25/Sep/2024 11:37:45 AM', 'DD/Mon/YYYY HH:MI:SS AM'),
+TO_TIMESTAMP('25/Sep/2024 12:55:45 PM', 'DD/Mon/YYYY HH:MI:SS PM'),
+'Customer connection down', 'Closed', 1014, 113);
 
 INSERT INTO support
-VALUES (TICKET_ID_SEQ.NEXTVAL, '23/Oct/2024 9:37:45', 'Customer connection down', 'Completed', 1020, 114);
+VALUES (TICKET_ID_SEQ.NEXTVAL, TO_TIMESTAMP('23/Oct/2024 3:48:45 PM', 'DD/Mon/YYYY HH:MI:SS PM'),
+TO_TIMESTAMP('23/Oct/2024 4:37:45 PM', 'DD/Mon/YYYY HH:MI:SS PM'),
+'Customer connection down', 'Closed', 1020, 114);
 
 COMMIT;
 
 --- Maintenance
-INSERT INTO maintenance
-VALUES (MAINT_ID_SEQ.NEXTVAL, 1000, '28/Jul/2024 10:40:45', '28/Jul/2024 12:37:45', 'Completed', 70000, 1001, 110, 119, 90160);
 
 INSERT INTO maintenance
-VALUES (MAINT_ID_SEQ.NEXTVAL, 500, '25/Sep/2024 10:40:45', '25/Sep/2024 12:37:45', 'Completed', 70010, 1014, 110, 119, 90170);
+VALUES (MAINT_ID_SEQ.NEXTVAL, 1000, TO_TIMESTAMP('28/Jul/2024 10:40:45 AM', 'DD/Mon/YYYY HH:MI:SS AM'),
+TO_TIMESTAMP('28/Jul/2024 12:37:45 PM', 'DD/Mon/YYYY HH:MI:SS PM'),
+'Completed', 70000, 1001, 110, 119, 90160);
+
+INSERT INTO maintenance
+VALUES (MAINT_ID_SEQ.NEXTVAL, 500, TO_TIMESTAMP('25/Sep/2024 10:40:45 AM', 'DD/Mon/YYYY HH:MI:SS AM'),
+TO_TIMESTAMP('25/Sep/2024 12:37:45 PM', 'DD/Mon/YYYY HH:MI:SS PM'),
+'Completed', 70010, 1014, 110, 119, 90170);
 
 COMMIT;
 
