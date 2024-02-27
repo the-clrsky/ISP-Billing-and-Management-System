@@ -211,6 +211,11 @@ CONSTRAINT pop_pop_manager_id_fk FOREIGN KEY (pop_manager_id) REFERENCES employe
 CONSTRAINT pop_line_tech_id_fk FOREIGN KEY (line_tech_id) REFERENCES employees(emp_id),
 CONSTRAINT pop_network_eng_id_fk FOREIGN KEY (network_eng_id) REFERENCES employees(emp_id));
 
+--- Payment_Master
+ALTER TABLE payment_master
+ADD (invoice_id NUMBER(10),
+CONSTRAINT payment_m_invoice_id_fk FOREIGN KEY (invoice_id) REFERENCES invoice(invoice_id));
+
 --- Payment_Details
 ALTER TABLE payment_details ADD (
 payment_id NUMBER(10),
@@ -235,8 +240,7 @@ CONSTRAINT invoice_pkg_id_fk FOREIGN KEY (pkg_id) REFERENCES package_master(pkg_
 CONSTRAINT invoice_offer_id_fk FOREIGN KEY (offer_id) REFERENCES offer_master(offer_id),
 CONSTRAINT invoice_area_id_fk FOREIGN KEY (area_id) REFERENCES area_master(area_id),
 CONSTRAINT invoice_pop_id_fk FOREIGN KEY (pop_id) REFERENCES pop(pop_id),
-CONSTRAINT invoice_usage_id_fk FOREIGN KEY (usage_id) REFERENCES usage(usage_id),
-CONSTRAINT invoice_payment_id_fk FOREIGN KEY (payment_id) REFERENCES payment_master(payment_id));
+CONSTRAINT invoice_usage_id_fk FOREIGN KEY (usage_id) REFERENCES usage(usage_id));
 
 --- Employees
 ALTER TABLE employees ADD (
