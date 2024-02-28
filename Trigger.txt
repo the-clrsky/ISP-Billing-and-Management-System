@@ -1,0 +1,14 @@
+--- Trigger
+
+-- Invoice ID
+CREATE OR REPLACE TRIGGER generate_invoice_id
+BEFORE INSERT ON INVOICE
+FOR EACH ROW
+BEGIN
+    IF :NEW.invoice_id IS NULL THEN
+        SELECT INVOICE_ID_SEQ.NEXTVAL INTO :NEW.invoice_id FROM dual;
+    END IF;
+END;
+/
+
+--
