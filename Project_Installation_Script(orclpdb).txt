@@ -25,7 +25,7 @@ cust_id NUMBER(10) CONSTRAINT customer_id_pk PRIMARY KEY,
 cust_first_name VARCHAR2(100),
 cust_last_name VARCHAR2(100),
 cust_address VARCHAR2(100),
-cust_phone NUMBER(11),
+cust_phone VARCHAR2(100),
 cust_email VARCHAR2(100),
 deposit_amount NUMBER(10),
 cust_start_date DATE);
@@ -102,7 +102,7 @@ CREATE TABLE invoice (
 invoice_id NUMBER(10) CONSTRAINT invoice_id_pk PRIMARY KEY,
 cust_first_name VARCHAR2(100),
 cust_last_name VARCHAR2(100),
-pkg_price NUMBER(10),
+total NUMBER(10),
 invoice_date DATE,
 billing_month VARCHAR2(100),
 billing_year VARCHAR2(100),
@@ -122,7 +122,7 @@ CREATE TABLE employees (
 emp_id NUMBER(10) CONSTRAINT employee_id_pk PRIMARY KEY,
 emp_first_name VARCHAR2(100),
 emp_last_name VARCHAR2(100),
-emp_phone NUMBER(11),
+emp_phone VARCHAR2(100),
 emp_email VARCHAR2(100),
 emp_address VARCHAR2(100),
 job_title VARCHAR2(100),
@@ -145,8 +145,8 @@ role VARCHAR2(100));
 --- Support
 CREATE TABLE support (
 ticket_id NUMBER(10) CONSTRAINT support_ticket_id_pk PRIMARY KEY,
-create_timestamp TIMESTAMP,
-end_timestamp TIMESTAMP,
+create_timestamp DATE,
+end_timestamp DATE,
 complaint VARCHAR2 (100),
 ticket_status VARCHAR(100));
 
@@ -154,8 +154,8 @@ ticket_status VARCHAR(100));
 CREATE TABLE maintenance (
 maint_id NUMBER(10) CONSTRAINT maintenance_id_pk PRIMARY KEY,
 cost NUMBER(10),
-create_timestamp TIMESTAMP,
-end_timestamp TIMESTAMP,
+create_timestamp DATE,
+end_timestamp DATE,
 status VARCHAR2(100));
 
 --- Equipments
@@ -168,18 +168,27 @@ installation_date DATE,
 status VARCHAR2(100),
 comments VARCHAR2(100));
 
+--- Extra_Services
+CREATE TABLE extra_services (
+ext_id NUMBER(10) CONSTRAINT ext_id_pk PRIMARY KEY,
+service_name VARCHAR2(100),
+service_type VARCHAR2(100),
+service_price VARCHAR2(100));
+
 ------ Add Foreign Key References ------
 --- Customers
 ALTER TABLE customers ADD (
 pkg_id NUMBER(10),
 offer_id NUMBER(10),
-pop_id NUMBER(10),
 area_id NUMBER(10),
+pop_id NUMBER(10),
+ext_id NUMBER(10),
 cust_type VARCHAR2(100),
 CONSTRAINT cust_pkg_id_fk FOREIGN KEY (pkg_id) REFERENCES package_master(pkg_id),
 CONSTRAINT cust_offer_id_fk FOREIGN KEY (offer_id) REFERENCES offer_master(offer_id),
+CONSTRAINT cust_area_id_fk FOREIGN KEY (area_id) REFERENCES area_master(area_id),
 CONSTRAINT cust_pop_id_fk FOREIGN KEY (pop_id) REFERENCES pop(pop_id),
-CONSTRAINT cust_area_id_fk FOREIGN KEY (area_id) REFERENCES area_master(area_id));
+CONSTRAINT cust_ext_id_fk FOREIGN KEY (ext_id) REFERENCES extra_services(ext_id));
 
 --- Package_Details
 ALTER TABLE package_details ADD (
@@ -236,6 +245,7 @@ pkg_id NUMBER(10),
 offer_id NUMBER(10),
 area_id NUMBER(10),
 pop_id NUMBER(10),
+ext_id NUMBER(10),
 usage_id NUMBER(10),
 payment_id NUMBER(10),
 CONSTRAINT invoice_cust_id_fk FOREIGN KEY (cust_id) REFERENCES customers(cust_id),
@@ -243,7 +253,8 @@ CONSTRAINT invoice_pkg_id_fk FOREIGN KEY (pkg_id) REFERENCES package_master(pkg_
 CONSTRAINT invoice_offer_id_fk FOREIGN KEY (offer_id) REFERENCES offer_master(offer_id),
 CONSTRAINT invoice_area_id_fk FOREIGN KEY (area_id) REFERENCES area_master(area_id),
 CONSTRAINT invoice_pop_id_fk FOREIGN KEY (pop_id) REFERENCES pop(pop_id),
-CONSTRAINT invoice_usage_id_fk FOREIGN KEY (usage_id) REFERENCES usage(usage_id));
+CONSTRAINT invoice_usage_id_fk FOREIGN KEY (usage_id) REFERENCES usage(usage_id),
+CONSTRAINT invoice_ext_id_fk FOREIGN KEY (ext_id) REFERENCES extra_services(ext_id));
 
 --- Employees
 ALTER TABLE employees ADD (
@@ -397,6 +408,12 @@ START WITH 1000
 INCREMENT BY 1
 MAXVALUE 9999999;
 
+--- Extra_Services
+CREATE SEQUENCE extra_services_seq
+START WITH 1000
+INCREMENT BY 10
+MAXVALUE 9999999;
+
 ------ Input Demo Data ------
 
 --- Package_Master
@@ -494,75 +511,75 @@ commit;
 
 --- Employees
 INSERT INTO employees
-VALUES (emp_id_seq.NEXTVAL, 'Jawed', 'Karim', 01719255000, 'jawed@bdisp.com', '500/1 Monipur, Mirpur', 'President', '20/May/2023', 55000, 10, null);
+VALUES (emp_id_seq.NEXTVAL, 'Jawed', 'Karim', '01719255000', 'jawed@bdisp.com', '500/1 Monipur, Mirpur', 'President', '20/May/2023', 55000, 10, null);
 
 INSERT INTO employees
-VALUES (emp_id_seq.NEXTVAL, 'Jamal', 'Islam', 01719255002, 'jamal@bdisp.com', '50/1 Monipur, Mirpur', 'Marketing Manager', '22/Jun/2023', 45000, 20, null);
+VALUES (emp_id_seq.NEXTVAL, 'Jamal', 'Islam', '01719255002', 'jamal@bdisp.com', '50/1 Monipur, Mirpur', 'Marketing Manager', '22/Jun/2023', 45000, 20, null);
 
 INSERT INTO employees
-VALUES (emp_id_seq.NEXTVAL, 'Serajul', 'Choudhury', 01719255004, 'serajul@bdisp.com', '23/4 Monipur - 1', 'Purchase Manager', '20/Aug/2023', 35000, 30, null);
+VALUES (emp_id_seq.NEXTVAL, 'Serajul', 'Choudhury', '01719255004', 'serajul@bdisp.com', '23/4 Monipur - 1', 'Purchase Manager', '20/Aug/2023', 35000, 30, null);
 
 INSERT INTO employees
-VALUES (emp_id_seq.NEXTVAL, 'Salman', 'Khan', 01719255005, 'salman@bdisp.com', '511 Monipur, Mirpur', 'Network Manager', '21/Jul/2023', 40000, 40, null);
+VALUES (emp_id_seq.NEXTVAL, 'Salman', 'Khan', '01719255005', 'salman@bdisp.com', '511 Monipur, Mirpur', 'Network Manager', '21/Jul/2023', 40000, 40, null);
 
 INSERT INTO employees
-VALUES (emp_id_seq.NEXTVAL, 'Nasima', 'Akhter', 01719255008, 'nasima@bdisp.com', '856 Monipur, Mirpur', 'Customer Service Manager', '20/Jul/2023', 35000, 50, null);
+VALUES (emp_id_seq.NEXTVAL, 'Nasima', 'Akhter', '01719255008', 'nasima@bdisp.com', '856 Monipur, Mirpur', 'Customer Service Manager', '20/Jul/2023', 35000, 50, null);
 
 INSERT INTO employees
-VALUES (emp_id_seq.NEXTVAL, 'Sayed', 'Khokhon', 01719255012, 'sayed@bdisp.com', '44 West Kafrul', 'Location Manager', '28/Jun/2023', 45000, 60, null);
+VALUES (emp_id_seq.NEXTVAL, 'Sayed', 'Khokhon', '01719255012', 'sayed@bdisp.com', '44 West Kafrul', 'Location Manager', '28/Jun/2023', 45000, 60, null);
 
 INSERT INTO employees
-VALUES (emp_id_seq.NEXTVAL, 'Partha', 'Majumder', 01719255017, 'partha@bdisp.com', '191/4 Shewrapara', 'Field Manager', '20/Sep/2023', 35000, 70, null);
+VALUES (emp_id_seq.NEXTVAL, 'Partha', 'Majumder', '01719255017', 'partha@bdisp.com', '191/4 Shewrapara', 'Field Manager', '20/Sep/2023', 35000, 70, null);
 
 INSERT INTO employees
-VALUES (emp_id_seq.NEXTVAL, 'Ayub', 'Bachchu', 01719255022, 'ayub@bdisp.com', '10/A Senpara', 'Sr. Accountant', '4/Jan/2024', 35000, 80, null);
+VALUES (emp_id_seq.NEXTVAL, 'Ayub', 'Bachchu', '01719255022', 'ayub@bdisp.com', '10/A Senpara', 'Sr. Accountant', '4/Jan/2024', 35000, 80, null);
 
 commit;
 
 INSERT INTO employees
-VALUES (emp_id_seq.NEXTVAL, 'Fazlur', 'Rahman', 01719255001, 'fazlur@bdisp.com', '526 Monipur, Mirpur', 'Administration Assistant', '22/Jun/2023', 40000, 10, 100);
+VALUES (emp_id_seq.NEXTVAL, 'Fazlur', 'Rahman', '01719255001', 'fazlur@bdisp.com', '526 Monipur, Mirpur', 'Administration Assistant', '22/Jun/2023', 40000, 10, 100);
 
 INSERT INTO employees
-VALUES (emp_id_seq.NEXTVAL, 'Omar', 'Ishrak', 01719255003, 'omar@bdisp.com', '254 Monipur, Mirpur', 'Marketing Analyst', '26/Aug/2023', 35000, 20, 101);
+VALUES (emp_id_seq.NEXTVAL, 'Omar', 'Ishrak', '01719255003', 'omar@bdisp.com', '254 Monipur, Mirpur', 'Marketing Analyst', '26/Aug/2023', 35000, 20, 101);
 
 INSERT INTO employees
-VALUES (emp_id_seq.NEXTVAL, 'Abul', 'Kashem', 01719255006, 'abul@bdisp.com', '756 Monipur, Mirpur', 'Network Engineer', '24/Aug/2023', 40000, 40, 103);
+VALUES (emp_id_seq.NEXTVAL, 'Abul', 'Kashem', '01719255006', 'abul@bdisp.com', '756 Monipur, Mirpur', 'Network Engineer', '24/Aug/2023', 40000, 40, 103);
 
 INSERT INTO employees
-VALUES (emp_id_seq.NEXTVAL, 'Jamilur', 'Reza', 01719255007, 'jamilur@bdisp.com', '552 Monipur, Mirpur', 'Network Engineer', '25/Aug/2023', 30000, 40, 103);
+VALUES (emp_id_seq.NEXTVAL, 'Jamilur', 'Reza', '01719255007', 'jamilur@bdisp.com', '552 Monipur, Mirpur', 'Network Engineer', '25/Aug/2023', 30000, 40, 103);
 
 INSERT INTO employees
-VALUES (emp_id_seq.NEXTVAL, 'Arun', 'Kumar', 01719255009, 'arun@bdisp.com', '921 Monipur, Mirpur', 'Customer Service Representative', '26/Jul/2023', 30000, 50, 104);
+VALUES (emp_id_seq.NEXTVAL, 'Arun', 'Kumar', '01719255009', 'arun@bdisp.com', '921 Monipur, Mirpur', 'Customer Service Representative', '26/Jul/2023', 30000, 50, 104);
 
 INSERT INTO employees
-VALUES (emp_id_seq.NEXTVAL, 'Chitta', 'Ranjan', 01719255010, 'chitta@bdisp.com', '52 Mirpur 11', 'Customer Service Representative', '22/Jul/2023', 30000, 50, 104);
+VALUES (emp_id_seq.NEXTVAL, 'Chitta', 'Ranjan', '01719255010', 'chitta@bdisp.com', '52 Mirpur 11', 'Customer Service Representative', '22/Jul/2023', 30000, 50, 104);
 
 INSERT INTO employees
-VALUES (emp_id_seq.NEXTVAL, 'Sikdar', 'Haq', 01719255011, 'sikdar@bdisp.com', '426/1 East Monipur', 'Customer Service Representative', '22/Jul/2023', 30000, 50, 104);
+VALUES (emp_id_seq.NEXTVAL, 'Sikdar', 'Haq', '01719255011', 'sikdar@bdisp.com', '426/1 East Monipur', 'Customer Service Representative', '22/Jul/2023', 30000, 50, 104);
 
 INSERT INTO employees
-VALUES (emp_id_seq.NEXTVAL, 'Rafi', 'Hasan', 01719255013, 'rafi@bdisp.com', '46 West Kafrul', 'Area Manager', '28/Jun/2023', 40000, 60, 105);
+VALUES (emp_id_seq.NEXTVAL, 'Rafi', 'Hasan', '01719255013', 'rafi@bdisp.com', '46 West Kafrul', 'Area Manager', '28/Jun/2023', 40000, 60, 105);
 
 INSERT INTO employees
-VALUES (emp_id_seq.NEXTVAL, 'Jahanara', 'Imam', 01719255014, 'jahanara@bdisp.com', '89 South Monipur', 'Area Manager', '28/Jun/2023', 40000, 60, 105);
+VALUES (emp_id_seq.NEXTVAL, 'Jahanara', 'Imam', '01719255014', 'jahanara@bdisp.com', '89 South Monipur', 'Area Manager', '28/Jun/2023', 40000, 60, 105);
 
 INSERT INTO employees
-VALUES (emp_id_seq.NEXTVAL, 'Firoz', 'Mahmud', 01719255015, 'firoz@bdisp.com', '12/5 Kazipara', 'POP Manager', '11/Jul/2023', 30000, 60, 105);
+VALUES (emp_id_seq.NEXTVAL, 'Firoz', 'Mahmud', '01719255015', 'firoz@bdisp.com', '12/5 Kazipara', 'POP Manager', '11/Jul/2023', 30000, 60, 105);
 
 INSERT INTO employees
-VALUES (emp_id_seq.NEXTVAL, 'Ghulam', 'Murshid', 01719255016, 'ghulam@bdisp.com', '17/4 Kazipara', 'POP Manager', '20/Jul/2023', 30000, 60, 105);
+VALUES (emp_id_seq.NEXTVAL, 'Ghulam', 'Murshid', '01719255016', 'ghulam@bdisp.com', '17/4 Kazipara', 'POP Manager', '20/Jul/2023', 30000, 60, 105);
 
 INSERT INTO employees
-VALUES (emp_id_seq.NEXTVAL, 'Raja', 'Chanda', 01719255018, 'raja@bdisp.com', '196 Pallabi', 'Line Technician', '27/Sep/2023', 30000, 70, 106);
+VALUES (emp_id_seq.NEXTVAL, 'Raja', 'Chanda', '01719255018', 'raja@bdisp.com', '196 Pallabi', 'Line Technician', '27/Sep/2023', 30000, 70, 106);
 
 INSERT INTO employees
-VALUES (emp_id_seq.NEXTVAL, 'Tareque', 'Masud', 01719255019, 'tareque@bdisp.com', '38/2 Senpara', 'Line Technician', '27/Sep/2023', 30000, 70, 106);
+VALUES (emp_id_seq.NEXTVAL, 'Tareque', 'Masud', '01719255019', 'tareque@bdisp.com', '38/2 Senpara', 'Line Technician', '27/Sep/2023', 30000, 70, 106);
 
 INSERT INTO employees
-VALUES (emp_id_seq.NEXTVAL, 'Kaushik', 'Taposh', 01719255020, 'kaushik@bdisp.com', '45/2 Senpara', 'Line Technician', '27/Sep/2023', 30000, 70, 106);
+VALUES (emp_id_seq.NEXTVAL, 'Kaushik', 'Taposh', '01719255020', 'kaushik@bdisp.com', '45/2 Senpara', 'Line Technician', '27/Sep/2023', 30000, 70, 106);
 
 INSERT INTO employees
-VALUES (emp_id_seq.NEXTVAL, 'Zahid', 'Hasan', 01719255021, 'zahid@bdisp.com', '8/2 Senpara', 'Line Technician', '02/Jan/2024', 30000, 70, 106);
+VALUES (emp_id_seq.NEXTVAL, 'Zahid', 'Hasan', '01719255021', 'zahid@bdisp.com', '8/2 Senpara', 'Line Technician', '02/Jan/2024', 30000, 70, 106);
 
 commit;
 
@@ -801,114 +818,123 @@ VALUES (ofr_dtls_id_seq.NEXTVAL, 'One Month Free for 3 Months Advance Bill', '01
 
 COMMIT;
 
+--- Extra_Services
+INSERT INTO extra_services
+VALUES (extra_services_seq.NEXTVAL, 'Real IP', 'Monthly', 300);
+
+INSERT INTO extra_services
+VALUES (extra_services_seq.NEXTVAL, 'IP TV', 'Monthly', 300);
+
+COMMIT;
+
 --- Customers
-INSERT INTO customers 
-VALUES (cust_id_seq.NEXTVAL, 'Samantha', 'Bird', null, 1956250001, 'bird@mail.com', 500, '01/Jun/2023', 202, 300, 40000, 400, 'Home');
+INSERT INTO customers
+VALUES (cust_id_seq.NEXTVAL, 'Samantha', 'Bird', null, 01956250001, 'bird@mail.com', 500, '01/Jun/2023', 202, 300, 400, 40000, 1000, 'Home');
 
 INSERT INTO customers 
-VALUES (cust_id_seq.NEXTVAL, 'Brad', 'Arellano', null, 1956250002, 'arellano@mail.com', 500, '01/Jun/2023', 203, null, 40010, 400, 'Home');
+VALUES (cust_id_seq.NEXTVAL, 'Brad', 'Arellano', null, '01956250002', 'arellano@mail.com', 500, '01/Jun/2023', 203, null, 400, 40010, 1010, 'Home');
 
 INSERT INTO customers 
-VALUES (cust_id_seq.NEXTVAL, 'Ashley', 'Gutierrez', null, 1956250003, 'gutierrez@mail.com', 500, '01/Jul/2023', 200, null, 40020, 406, 'Home');
+VALUES (cust_id_seq.NEXTVAL, 'Ashley', 'Gutierrez', null, '01956250003', 'gutierrez@mail.com', 500, '01/Jul/2023', 200, null, 406, 40020, 1000, 'Home');
 
 INSERT INTO customers 
-VALUES (cust_id_seq.NEXTVAL, 'Michelle', 'Miller', null, 1956250004, 'miller@mail.com', 500, '01/Jun/2023', 202, null, 40030, 401, 'Home');
+VALUES (cust_id_seq.NEXTVAL, 'Michelle', 'Miller', null, '01956250004', 'miller@mail.com', 500, '01/Jun/2023', 202, null, 401, 40030, 1010, 'Home');
 
 INSERT INTO customers 
-VALUES (cust_id_seq.NEXTVAL, 'Jessica', 'Nolan', null, 1956250005, 'nolan@mail.com', 500, '01/Aug/2023', 204, 301, 40030, 401, 'Home');
+VALUES (cust_id_seq.NEXTVAL, 'Jessica', 'Nolan', null, '01956250005', 'nolan@mail.com', 500, '01/Aug/2023', 204, 301, 401, 40030, null, 'Home');
 
 INSERT INTO customers 
-VALUES (cust_id_seq.NEXTVAL, 'Stephanie', 'Harris', null, 1956250006, 'harris@mail.com', 500, '01/Jun/2023', 200, null, 40040, 405, 'Home');
+VALUES (cust_id_seq.NEXTVAL, 'Stephanie', 'Harris', null, '01956250006', 'harris@mail.com', 500, '01/Jun/2023', 200, null, 405, 40040, 1000, 'Home');
 
 INSERT INTO customers 
-VALUES (cust_id_seq.NEXTVAL, 'Angela', 'Chang', null, 1956250007, 'chang@mail.com', 500, '01/Sep/2023', 202, null, 40070, 408, 'Home');
+VALUES (cust_id_seq.NEXTVAL, 'Angela', 'Chang', null, '01956250007', 'chang@mail.com', 500, '01/Sep/2023', 202, null, 408, 40070, 1010, 'Home');
 
 INSERT INTO customers 
-VALUES (cust_id_seq.NEXTVAL, 'Caroline', 'Dawson', null, 1956250008, 'dawson@mail.com', 500, '01/Oct/2023', 205, null, 40000, 400, 'Corporate');
+VALUES (cust_id_seq.NEXTVAL, 'Caroline', 'Dawson', null, '01956250008', 'dawson@mail.com', 500, '01/Oct/2023', 205, null, 400, 40000, 1000, 'Corporate');
 
 INSERT INTO customers 
-VALUES (cust_id_seq.NEXTVAL, 'Natalie', 'Foster', null, 1956250009, 'foster@mail.com', 500, '01/Jul/2023', 207, null, 40010, 400, 'Corporate');
+VALUES (cust_id_seq.NEXTVAL, 'Natalie', 'Foster', null, '01956250009', 'foster@mail.com', 500, '01/Jul/2023', 207, null, 400, 40010, null, 'Corporate');
 
 INSERT INTO customers 
-VALUES (cust_id_seq.NEXTVAL, 'John', 'Fisher', null, 1956250010, 'fisher@mail.com', 500, '01/Jan/2024', 203, 300, 40000, 400, 'Home');
+VALUES (cust_id_seq.NEXTVAL, 'John', 'Fisher', null, '01956250010', 'fisher@mail.com', 500, '01/Jan/2024', 203, 300, 400, 40000, 1010, 'Home');
 
 INSERT INTO customers 
-VALUES (cust_id_seq.NEXTVAL, 'Marie', 'Calderon', null, 1956250011, 'calderon@mail.com', 500, '01/Sep/2023', 206, null, 40050, 404, 'Corporate');
+VALUES (cust_id_seq.NEXTVAL, 'Marie', 'Calderon', null, '01956250011', 'calderon@mail.com', 500, '01/Sep/2023', 206, null, 404, 40050, 1000, 'Corporate');
 
 INSERT INTO customers 
-VALUES (cust_id_seq.NEXTVAL, 'Jody', 'Hampton', null, 1956250012, 'hampton@mail.com', 500, '01/Nov/2023', 207, null, 40060, 404, 'Corporate');
+VALUES (cust_id_seq.NEXTVAL, 'Jody', 'Hampton', null, '01956250012', 'hampton@mail.com', 500, '01/Nov/2023', 207, null, 404, 40060, null, 'Corporate');
 
 INSERT INTO customers 
-VALUES (cust_id_seq.NEXTVAL, 'Elizabeth', 'Harris', null, 1956250013, 'harris@mail.com', 500, '01/Aug/2023', 208, null, 40070, 408, 'Corporate');
+VALUES (cust_id_seq.NEXTVAL, 'Elizabeth', 'Harris', null, '01956250013', 'harris@mail.com', 500, '01/Aug/2023', 208, null, 408, 40070, 1000, 'Corporate');
 
 INSERT INTO customers 
-VALUES (cust_id_seq.NEXTVAL, 'Luis', 'Nelson', null, 1956250014, 'nelson@mail.com', 500, '01/Sep/2023', 209, null, 40080, 402, 'Corporate');
+VALUES (cust_id_seq.NEXTVAL, 'Luis', 'Nelson', null, '01956250014', 'nelson@mail.com', 500, '01/Sep/2023', 209, null, 402, 40080, null, 'Corporate');
 
 INSERT INTO customers 
-VALUES (cust_id_seq.NEXTVAL, 'Mary', 'Garner', null, 1956250015, 'garner@mail.com', 500, '01/Jul/2023', 207, null, 40000, 400, 'Corporate');
+VALUES (cust_id_seq.NEXTVAL, 'Mary', 'Garner', null, '01956250015', 'garner@mail.com', 500, '01/Jul/2023', 207, null, 400, 40000, 1000, 'Corporate');
 
 INSERT INTO customers 
-VALUES (cust_id_seq.NEXTVAL, 'Jack', 'Terrell', null, 1956250016, 'terrell@mail.com', 500, '01/Sep/2023', 203, null, 40010, 400, 'Home');
+VALUES (cust_id_seq.NEXTVAL, 'Jack', 'Terrell', null, '01956250016', 'terrell@mail.com', 500, '01/Sep/2023', 203, null, 400, 40010, null, 'Home');
 
 INSERT INTO customers 
-VALUES (cust_id_seq.NEXTVAL, 'Emily', 'Mckinney', null, 1956250017, 'mckinney@mail.com', 500, '01/Jun/2023', 202, null, 40050, 404, 'Home');
+VALUES (cust_id_seq.NEXTVAL, 'Emily', 'Mckinney', null, '01956250017', 'mckinney@mail.com', 500, '01/Jun/2023', 202, null, 404, 40050, 1010, 'Home');
 
 INSERT INTO customers 
-VALUES (cust_id_seq.NEXTVAL, 'Robert', 'Sullivan', null, 1956250019, 'sullivan@mail.com', 500, '1/Jun/2023', 202, null, 40000, 400, 'Home');
+VALUES (cust_id_seq.NEXTVAL, 'Robert', 'Sullivan', null, '01956250019', 'sullivan@mail.com', 500, '1/Jun/2023', 202, null, 400, 40000, null, 'Home');
 
 INSERT INTO customers 
-VALUES (cust_id_seq.NEXTVAL, 'Anne', 'Hart', null, 1956250037, 'hart@mail.com', 500, '1/Oct/2023', 209, null, 40080, 402, 'Corporate');
+VALUES (cust_id_seq.NEXTVAL, 'Anne', 'Hart', null, '01956250037', 'hart@mail.com', 500, '1/Oct/2023', 209, null, 402, 40080, null, 'Corporate');
 
 INSERT INTO customers 
-VALUES (cust_id_seq.NEXTVAL, 'Jessica', 'Lee', null, 1956250038, 'lee@mail.com', 500, '1/Nov/2023', 209, null, 40080, 402, 'Corporate');
+VALUES (cust_id_seq.NEXTVAL, 'Jessica', 'Lee', null, '01956250038', 'lee@mail.com', 500, '1/Nov/2023', 209, null, 402, 40080, null, 'Corporate');
 
 INSERT INTO customers 
-VALUES (cust_id_seq.NEXTVAL, 'Matthew', 'Reed', null, 1956250039, 'reed@mail.com', 500, '1/Sep/2023', 209, null, 40080, 402, 'Corporate');
+VALUES (cust_id_seq.NEXTVAL, 'Matthew', 'Reed', null, '01956250039', 'reed@mail.com', 500, '1/Sep/2023', 209, null, 402, 40080, null, 'Corporate');
 
 INSERT INTO customers 
-VALUES (cust_id_seq.NEXTVAL, 'Crystal', 'Weaver', null, 1956250037, 'weaver@mail.com', 500, '1/Nov/2023', 208, null, 40050, 404, 'Corporate');
+VALUES (cust_id_seq.NEXTVAL, 'Crystal', 'Weaver', null, '01956250037', 'weaver@mail.com', 500, '1/Nov/2023', 208, null, 404, 40050, null, 'Corporate');
 
 INSERT INTO customers 
-VALUES (cust_id_seq.NEXTVAL, 'Dana', 'Montoya', null, 1956250038, 'montoya@mail.com', 500, '1/Dec/2023', 208, null, 40050, 404, 'Corporate');
+VALUES (cust_id_seq.NEXTVAL, 'Dana', 'Montoya', null, '01956250038', 'montoya@mail.com', 500, '1/Dec/2023', 208, null, 404, 40050, null, 'Corporate');
 
 INSERT INTO customers 
-VALUES (cust_id_seq.NEXTVAL, 'Nicole', 'Fleming', null, 1956250039, 'fleming@mail.com', 500, '1/Oct/2023', 208, null, 40050, 404, 'Corporate');
+VALUES (cust_id_seq.NEXTVAL, 'Nicole', 'Fleming', null, '01956250039', 'fleming@mail.com', 500, '1/Oct/2023', 208, null, 404, 40050, null, 'Corporate');
 
 INSERT INTO customers 
-VALUES (cust_id_seq.NEXTVAL, 'Tim', 'Herring', null, 1956250021, 'herring@mail.com', 500, '1/Jun/2023', 202, null, 40020, 406, 'Home');
+VALUES (cust_id_seq.NEXTVAL, 'Tim', 'Herring', null, '01956250021', 'herring@mail.com', 500, '1/Jun/2023', 202, null, 406, 40020, null, 'Home');
 
 INSERT INTO customers 
-VALUES (cust_id_seq.NEXTVAL, 'Craig', 'Gilbert', null, 1956250022, 'gilbert@mail.com', 500, '1/Jun/2023', 202, null, 40020, 406, 'Home');
+VALUES (cust_id_seq.NEXTVAL, 'Craig', 'Gilbert', null, '01956250022', 'gilbert@mail.com', 500, '1/Jun/2023', 202, null, 406, 40020, null, 'Home');
 
 INSERT INTO customers 
-VALUES (cust_id_seq.NEXTVAL, 'Maureen', 'Oconnor', null, 1956250023, 'oconnor@mail.com', 500, '1/Jun/2023', 202, null, 40020, 406, 'Home');
+VALUES (cust_id_seq.NEXTVAL, 'Maureen', 'Oconnor', null, '01956250023', 'oconnor@mail.com', 500, '1/Jun/2023', 202, null, 406, 40020, null, 'Home');
 
 INSERT INTO customers 
-VALUES (cust_id_seq.NEXTVAL, 'Thomas', 'Robertson', null, 1956250025, 'robertson@mail.com', 500, '1/Sep/2023', 203, null, 40070, 408, 'Home');
+VALUES (cust_id_seq.NEXTVAL, 'Thomas', 'Robertson', null, '01956250025', 'robertson@mail.com', 500, '1/Sep/2023', 203, null, 408, 40070, null, 'Home');
 
 INSERT INTO customers 
-VALUES (cust_id_seq.NEXTVAL, 'David', 'Kerr', null, 1956250026, 'kerr@mail.com', 500, '1/Sep/2023', 203, null, 40070, 408, 'Home');
+VALUES (cust_id_seq.NEXTVAL, 'David', 'Kerr', null, '01956250026', 'kerr@mail.com', 500, '1/Sep/2023', 203, null, 408, 40070, null, 'Home');
 
 INSERT INTO customers 
-VALUES (cust_id_seq.NEXTVAL, 'Heidi', 'Martinez', null, 1956250027, 'martinez@mail.com', 500, '1/Sep/2023', 200, null, 40070, 408, 'Home');
+VALUES (cust_id_seq.NEXTVAL, 'Heidi', 'Martinez', null, '01956250027', 'martinez@mail.com', 500, '1/Sep/2023', 200, null, 408, 40070, null, 'Home');
 
 INSERT INTO customers 
-VALUES (cust_id_seq.NEXTVAL, 'Amber', 'Harper', null, 1956250029, 'harper@mail.com', 500, '1/Oct/2023', 203, null, 40090, 403, 'Home');
+VALUES (cust_id_seq.NEXTVAL, 'Amber', 'Harper', null, '01956250029', 'harper@mail.com', 500, '1/Oct/2023', 203, null, 403, 40090, null, 'Home');
 
 INSERT INTO customers 
-VALUES (cust_id_seq.NEXTVAL, 'Charles', 'Page', null, 1956250030, 'page@mail.com', 500, '1/Nov/2023', 204, null, 40090, 403, 'Home');
+VALUES (cust_id_seq.NEXTVAL, 'Charles', 'Page', null, '01956250030', 'page@mail.com', 500, '1/Nov/2023', 204, null, 403, 40090, null, 'Home');
 
 INSERT INTO customers 
-VALUES (cust_id_seq.NEXTVAL, 'Karen', 'Mercer', null, 1956250031, 'mercer@mail.com', 500, '1/Dec/2023', 204, null, 40090, 403, 'Home');
+VALUES (cust_id_seq.NEXTVAL, 'Karen', 'Mercer', null, '01956250031', 'mercer@mail.com', 500, '1/Dec/2023', 204, null, 403, 40090, null, 'Home');
 
 INSERT INTO customers 
-VALUES (cust_id_seq.NEXTVAL, 'Kelly', 'Chapman', null, 1956250033, 'chapman@mail.com', 500, '1/Nov/2023', 204, null, 40100, 409, 'Home');
+VALUES (cust_id_seq.NEXTVAL, 'Kelly', 'Chapman', null, '01956250033', 'chapman@mail.com', 500, '1/Nov/2023', 204, null, 409, 40100, null, 'Home');
 
 INSERT INTO customers 
-VALUES (cust_id_seq.NEXTVAL, 'Leslie', 'Daniels', null, 1956250034, 'daniels@mail.com', 500, '1/Dec/2023', 204, null, 40100, 409, 'Home');
+VALUES (cust_id_seq.NEXTVAL, 'Leslie', 'Daniels', null, '01956250034', 'daniels@mail.com', 500, '1/Dec/2023', 204, null, 409, 40100, null, 'Home');
 
 INSERT INTO customers 
-VALUES (cust_id_seq.NEXTVAL, 'Charlotte', 'Hayes', null, 1956250035, 'hayes@mail.com', 500, '1/Nov/2023', 204, null, 40100, 409, 'Home');
+VALUES (cust_id_seq.NEXTVAL, 'Charlotte', 'Hayes', null, '01956250035', 'hayes@mail.com', 500, '1/Nov/2023', 204, null, 409, 40100, 1010, 'Home');
 
 COMMIT;
 
@@ -1106,24 +1132,6 @@ INSERT INTO maintenance
 VALUES (MAINT_ID_SEQ.NEXTVAL, 500, TO_TIMESTAMP('25/Sep/2024 10:40:45 AM', 'DD/Mon/YYYY HH:MI:SS AM'),
 TO_TIMESTAMP('25/Sep/2024 12:37:45 PM', 'DD/Mon/YYYY HH:MI:SS PM'),
 'Completed', 70010, 1014, 110, 119, 90170);
-
-COMMIT;
-
---- Users
-INSERT INTO users
-VALUES (USER_ID_SEQ.NEXTVAL, 'Jawed', 'Jawed123', 'Admin', 100);
-
-INSERT INTO users
-VALUES (USER_ID_SEQ.NEXTVAL, 'Salman', 'Salman123', 'DBA', 103);
-
-INSERT INTO users
-VALUES (USER_ID_SEQ.NEXTVAL, 'Arun', 'Arun123', 'CSR', 112);
-
-INSERT INTO users
-VALUES (USER_ID_SEQ.NEXTVAL, 'Chitta', 'Chitta123', 'CSR', 113);
-
-INSERT INTO users
-VALUES (USER_ID_SEQ.NEXTVAL, 'Sikdar', 'Sikdar123', 'CSR', 114);
 
 COMMIT;
 
