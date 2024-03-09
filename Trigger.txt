@@ -11,4 +11,13 @@ BEGIN
 END;
 /
 
---
+-- Payment Details ID
+CREATE OR REPLACE TRIGGER generate_invoice_id
+BEFORE INSERT ON package_details
+FOR EACH ROW
+BEGIN
+    IF :NEW.pkg_dtls_id IS NULL THEN
+        SELECT pkg_dtls_id_seq.NEXTVAL INTO :NEW.pkg_dtls_id FROM dual;
+    END IF;
+END;
+/
