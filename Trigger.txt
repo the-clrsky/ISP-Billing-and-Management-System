@@ -12,7 +12,7 @@ END;
 /
 
 -- Payment Details ID
-CREATE OR REPLACE TRIGGER generate_invoice_id
+CREATE OR REPLACE TRIGGER generate_pkg_dtls_id
 BEFORE INSERT ON package_details
 FOR EACH ROW
 BEGIN
