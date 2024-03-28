@@ -1,0 +1,15 @@
+-- To delete, first connect to the isp_billing user.
+-- Then, RUN this script.
+
+--- Go to sys USER
+conn sys/s as sysdba
+
+--- Drop USER
+DROP USER isp_billing CASCADE;
+
+--- PURGE
+PURGE RECYCLEBIN;
+
+--- Project Deletation Successful ---
+
+
