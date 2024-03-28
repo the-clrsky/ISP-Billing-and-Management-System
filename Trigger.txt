@@ -43,3 +43,14 @@ BEGIN
     END IF;
 END;
 /
+
+-- Payment Details ID
+CREATE OR REPLACE TRIGGER generate_payment_dtls_id
+BEFORE INSERT ON payment_details
+FOR EACH ROW
+BEGIN
+    IF :NEW.PAYMENT_DTLS_ID IS NULL THEN
+        SELECT payment_dtls_id_seq.NEXTVAL INTO :NEW.PAYMENT_DTLS_ID FROM dual;
+    END IF;
+END;
+/

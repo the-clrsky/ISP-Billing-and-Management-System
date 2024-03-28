@@ -83,14 +83,14 @@ pop_address VARCHAR2(100));
 CREATE TABLE payment_master (
 payment_id NUMBER(10) CONSTRAINT payment_id_pk PRIMARY KEY,
 payment_date DATE,
-payment_amount NUMBER(10),
-trx_id VARCHAR2(100));
+payment_amount NUMBER(10));
 
 --- Payment_Details
 CREATE TABLE payment_details (
 payment_dtls_id NUMBER(10) CONSTRAINT payment_details_id_pk PRIMARY KEY,
-payment_processor VARCHAR2(100),
 payment_method VARCHAR2(100),
+payment_processor VARCHAR2(100),
+trx_id VARCHAR2(30),
 service_charge NUMBER(10),
 vat NUMBER(10));
 
