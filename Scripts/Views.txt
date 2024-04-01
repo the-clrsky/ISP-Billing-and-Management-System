@@ -1,0 +1,19 @@
+-- Views
+
+
+-- Unpaid Invoices
+
+CREATE VIEW UNPAID_INVOICES AS
+    SELECT INVOICE_ID,
+           CUST_ID,
+           CUST_FIRST_NAME,
+           CUST_LAST_NAME,
+           PKG_ID,
+           INVOICE_DATE,
+           BILLING_MONTH,
+           BILLING_YEAR,
+           DUE_DATE,
+           TOTAL,
+           STATUS
+      FROM invoice
+     WHERE STATUS = 'Unpaid';
