@@ -285,12 +285,10 @@ CONSTRAINT equipments_pop_id_fk FOREIGN KEY (pop_id) REFERENCES pop(pop_id));
 --- Maintenance
 ALTER TABLE maintenance ADD (
 ticket_id NUMBER(10),
-cust_id NUMBER(10),
 network_eng_id NUMBER(10),
 line_tech_id NUMBER(10),
 eqpt_id NUMBER(10),
 CONSTRAINT maintenance_ticket_id_fk FOREIGN KEY (ticket_id) REFERENCES support(ticket_id),
-CONSTRAINT maintenance_cust_id_fk FOREIGN KEY (cust_id) REFERENCES customers(cust_id),
 CONSTRAINT maintenance_network_eng_id_fk FOREIGN KEY (network_eng_id) REFERENCES employees(emp_id),
 CONSTRAINT maintenance_line_tech_id_fk FOREIGN KEY (line_tech_id) REFERENCES employees(emp_id),
 CONSTRAINT maintenance_eqpt_id_fk FOREIGN KEY (eqpt_id) REFERENCES equipments(eqpt_id));
@@ -1160,12 +1158,12 @@ COMMIT;
 INSERT INTO maintenance
 VALUES (MAINT_ID_SEQ.NEXTVAL, 1000, TO_TIMESTAMP('28/Jul/2024 10:40:45 AM', 'DD/Mon/YYYY HH:MI:SS AM'),
 TO_TIMESTAMP('28/Jul/2024 12:37:45 PM', 'DD/Mon/YYYY HH:MI:SS PM'),
-'Completed', 70000, 1001, 110, 119, 90160);
+'Completed', 70000, 110, 119, 90160);
 
 INSERT INTO maintenance
 VALUES (MAINT_ID_SEQ.NEXTVAL, 500, TO_TIMESTAMP('25/Sep/2024 10:40:45 AM', 'DD/Mon/YYYY HH:MI:SS AM'),
 TO_TIMESTAMP('25/Sep/2024 12:37:45 PM', 'DD/Mon/YYYY HH:MI:SS PM'),
-'Completed', 70010, 1014, 110, 119, 90170);
+'Completed', 70010, 110, 119, 90170);
 
 COMMIT;
 
