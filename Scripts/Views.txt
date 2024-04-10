@@ -17,3 +17,53 @@ CREATE VIEW UNPAID_INVOICES AS
            STATUS
       FROM invoice
      WHERE STATUS = 'Unpaid';
+
+-- Inactive Customers
+
+CREATE VIEW INACTIVE_CUSTOMERS AS
+    SELECT CUST_ID,
+           CUST_FIRST_NAME || ' ' || CUST_LAST_NAME     NAME,
+           CUST_PHONE,
+           PKG_ID,
+           AREA_ID,
+           POP_ID,
+           EXT_ID,
+           CUST_TYPE
+      FROM customers
+     WHERE CUST_STATUS = 'Inactive';
+
+-- Open Tickets
+
+CREATE VIEW OPEN_TICKETS AS
+    SELECT TICKET_ID,
+           CUST_ID,
+           CSR_ID,
+           CREATE_TIMESTAMP,
+           END_TIMESTAMP,
+           COMPLAINT,
+           TICKET_STATUS
+      FROM support
+     WHERE TICKET_STATUS = 'Open';
+
+-- Active Maintenances
+
+CREATE VIEW ACTIVE_MAINTENANCES AS
+    SELECT MAINT_ID,
+           TICKET_ID,
+           EQPT_ID,
+           NETWORK_ENG_ID,
+           LINE_TECH_ID,
+           CREATE_TIMESTAMP,
+           END_TIMESTAMP,
+           COST,
+           STATUS
+      FROM maintenance
+     WHERE STATUS = 'In Progress';
+
+-- Day old Support Tickets
+
+CREATE VIEW DAY_OLD_TICKETS AS
+SELECT * FROM support
+WHERE TICKET_STATUS = 'Open'
+AND CREATE_TIMESTAMP < SYSDATE - INTERVAL '1' DAY;
+
