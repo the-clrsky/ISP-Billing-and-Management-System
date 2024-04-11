@@ -446,6 +446,145 @@ MAXVALUE 9999999
 NOCACHE
 NOCYCLE;
 
+COMMIT;
+
+--- Triggers
+
+-- Invoice ID
+CREATE OR REPLACE TRIGGER generate_invoice_id
+BEFORE INSERT ON INVOICE
+FOR EACH ROW
+BEGIN
+    IF :NEW.invoice_id IS NULL THEN
+        SELECT INVOICE_ID_SEQ.NEXTVAL INTO :NEW.invoice_id FROM dual;
+    END IF;
+END;
+/
+
+-- Payment Details ID
+CREATE OR REPLACE TRIGGER generate_pkg_dtls_id
+BEFORE INSERT ON package_details
+FOR EACH ROW
+BEGIN
+    IF :NEW.pkg_dtls_id IS NULL THEN
+        SELECT pkg_dtls_id_seq.NEXTVAL INTO :NEW.pkg_dtls_id FROM dual;
+    END IF;
+END;
+/
+
+-- Area Details ID
+CREATE OR REPLACE TRIGGER generate_area_dtls_id
+BEFORE INSERT ON area_details
+FOR EACH ROW
+BEGIN
+    IF :NEW.area_dtls_id IS NULL THEN
+        SELECT area_dtls_id_seq.NEXTVAL INTO :NEW.area_dtls_id FROM dual;
+    END IF;
+END;
+/
+
+-- Offer Details ID
+CREATE OR REPLACE TRIGGER generate_offer_dtls_id
+BEFORE INSERT ON offer_details
+FOR EACH ROW
+BEGIN
+    IF :NEW.offer_dtls_id IS NULL THEN
+        SELECT ofr_dtls_id_seq.NEXTVAL INTO :NEW.offer_dtls_id FROM dual;
+    END IF;
+END;
+/
+
+-- Payment Details ID
+CREATE OR REPLACE TRIGGER generate_payment_dtls_id
+BEFORE INSERT ON payment_details
+FOR EACH ROW
+BEGIN
+    IF :NEW.PAYMENT_DTLS_ID IS NULL THEN
+        SELECT payment_dtls_id_seq.NEXTVAL INTO :NEW.PAYMENT_DTLS_ID FROM dual;
+    END IF;
+END;
+/
+
+COMMIT;
+
+-- Views
+
+
+-- Unpaid Invoices
+
+CREATE VIEW UNPAID_INVOICES AS
+    SELECT INVOICE_ID,
+           CUST_ID,
+           CUST_FIRST_NAME,
+           CUST_LAST_NAME,
+           PKG_ID,
+           INVOICE_DATE,
+           BILLING_MONTH,
+           BILLING_YEAR,
+           DUE_DATE,
+           TOTAL,
+           STATUS
+      FROM invoice
+     WHERE STATUS = 'Unpaid';
+/
+
+-- Inactive Customers
+
+CREATE VIEW INACTIVE_CUSTOMERS AS
+    SELECT CUST_ID,
+           CUST_FIRST_NAME || ' ' || CUST_LAST_NAME     NAME,
+           CUST_PHONE,
+           PKG_ID,
+           AREA_ID,
+           POP_ID,
+           EXT_ID,
+           CUST_TYPE
+      FROM customers
+     WHERE CUST_STATUS = 'Inactive';
+/
+
+-- Open Tickets
+
+CREATE VIEW OPEN_TICKETS AS
+    SELECT TICKET_ID,
+           CUST_ID,
+           CSR_ID,
+           CREATE_TIMESTAMP,
+           END_TIMESTAMP,
+           COMPLAINT,
+           TICKET_STATUS
+      FROM support
+     WHERE TICKET_STATUS = 'Open';
+/
+
+-- Active Maintenances
+
+CREATE VIEW ACTIVE_MAINTENANCES AS
+    SELECT MAINT_ID,
+           TICKET_ID,
+           EQPT_ID,
+           NETWORK_ENG_ID,
+           LINE_TECH_ID,
+           CREATE_TIMESTAMP,
+           END_TIMESTAMP,
+           COST,
+           STATUS
+      FROM maintenance
+     WHERE STATUS = 'In Progress';
+/
+
+-- Day old Support Tickets
+
+CREATE VIEW DAY_OLD_TICKETS AS
+SELECT s.TICKET_ID, s.CSR_ID, e.EMP_FIRST_NAME, s.COMPLAINT
+FROM support s JOIN employees e
+ON s.CSR_ID = e.EMP_ID
+WHERE TICKET_STATUS = 'Open'
+AND CREATE_TIMESTAMP < SYSDATE - INTERVAL '1' DAY;
+/
+
+COMMIT;
+
 ------ Input Demo Data ------
 
 --- Package_Master
@@ -1182,6 +1321,12 @@ VALUES (USER_ID_SEQ.NEXTVAL, 'Chitta', 'Chitta123', 'CSR', 113);
 
 INSERT INTO users
 VALUES (USER_ID_SEQ.NEXTVAL, 'Sikdar', 'Sikdar123', 'CSR', 114);
+
+INSERT INTO users
+VALUES (1, 'Bishal', 1, 'Admin', null);
+
+INSERT INTO users
+VALUES (2, 'Bishal', 2, 'CSR', null);
 
 COMMIT;
 
