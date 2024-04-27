@@ -1,0 +1,4 @@
+FILE="C:\Users\theFalcon\Desktop\isp_billing.dmp"
+LOG="C:\Users\theFalcon\Desktop\exp_isp_billing.log"
+OWNER=('ISP_BILLING')
+FEEDBACK=1000

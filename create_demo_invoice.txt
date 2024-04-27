@@ -1,0 +1,16 @@
+INSERT INTO invoice (invoice_id, cust_id, total, invoice_date, billing_month, billing_year, due_date, status)
+SELECT
+    invoice_id_seq.NEXTVAL,
+    c.cust_id,
+    (pkg.pkg_price + NVL(es.service_price, 0)) AS total,
+    TRUNC(SYSDATE) AS invoice_date,
+    TO_CHAR(SYSDATE, 'MON') AS billing_month,
+    TO_CHAR(SYSDATE, 'YYYY') AS billing_year,
+    ADD_MONTHS(TRUNC(SYSDATE, 'MM'), 1) - 1 AS due_date,
+    'Paid' AS status
+FROM
+    customers c
+JOIN
+    package_master pkg ON c.pkg_id = pkg.pkg_id
+LEFT JOIN
+    extra_services es ON c.ext_id = es.ext_id;

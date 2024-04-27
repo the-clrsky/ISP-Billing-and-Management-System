@@ -1,0 +1,111 @@
+
+Connected to: Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Export done in WE8MSWIN1252 character set and AL16UTF16 NCHAR character set
+server uses AL32UTF8 character set (possible charset conversion)
+
+About to export specified users ...
+. exporting pre-schema procedural objects and actions
+. exporting foreign function library names for user ISP_BILLING 
+. exporting PUBLIC type synonyms
+. exporting private type synonyms
+. exporting object type definitions for user ISP_BILLING 
+About to export ISP_BILLING's objects ...
+. exporting database links
+. exporting sequence numbers
+. exporting cluster definitions
+. about to export ISP_BILLING's tables via Conventional Path ...
+. . exporting table                   AREA_DETAILS
+                                                           10 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                    AREA_MASTER
+                                                           10 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                      CUSTOMERS
+                                                           78 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                    DEPARTMENTS
+                                                            8 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                      EMPLOYEES
+                                                           23 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                     EQUIPMENTS
+                                                           22 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                 EXTRA_SERVICES
+                                                            2 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                        INVOICE
+                                                           18 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                    MAINTENANCE
+                                                            6 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                  OFFER_DETAILS
+                                                           12 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                   OFFER_MASTER
+                                                            2 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                PACKAGE_DETAILS
+                                                           10 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                 PACKAGE_MASTER
+                                                           10 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                PAYMENT_DETAILS
+                                                           15 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                 PAYMENT_MASTER
+                                                           15 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                            POP
+                                                           11 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                        SUPPORT
+                                                            6 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                          USAGE
+                                                           34 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                          USERS
+                                                            7 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. exporting synonyms
+. exporting views
+. exporting stored procedures
+. exporting operators
+. exporting referential integrity constraints
+. exporting triggers
+. exporting indextypes
+. exporting bitmap, functional and extensible indexes
+. exporting posttables actions
+. exporting materialized views
+. exporting snapshot logs
+. exporting job queues
+. exporting refresh groups and children
+. exporting dimensions
+. exporting post-schema procedural objects and actions
+. exporting statistics
+Export terminated successfully with warnings.
