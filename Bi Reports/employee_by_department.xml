@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DOCUMENT>
+  <ROWSET>
+    <ROW>
+      <ID>100</ID>
+      <NAME>Jawed Karim</NAME>
+      <PHONE>01719255000</PHONE>
+      <MAIL>jawed@bdisp.com</MAIL>
+      <ADDR>500/1 Monipur, Mirpur</ADDR>
+      <JOBS>President</JOBS>
+      <JOINING>05/20/2023</JOINING>
+      <SALARY>55000</SALARY>
+      <DEPT_NAME>Administration</DEPT_NAME>
+      <MANAGER_NAME> </MANAGER_NAME>
+    </ROW>
+    <ROW>
+      <ID>101</ID>
+      <NAME>Jamal Islam</NAME>
+      <PHONE>01719255002</PHONE>
+      <MAIL>jamal@bdisp.com</MAIL>
+      <ADDR>50/1 Monipur, Mirpur</ADDR>
+      <JOBS>Marketing Manager</JOBS>
+      <JOINING>06/22/2023</JOINING>
+      <SALARY>45000</SALARY>
+      <DEPT_NAME>Marketing</DEPT_NAME>
+      <MANAGER_NAME> </MANAGER_NAME>
+    </ROW>
+    <ROW>
+      <ID>102</ID>
+      <NAME>Serajul Choudhury</NAME>
+      <PHONE>01719255004</PHONE>
+      <MAIL>serajul@bdisp.com</MAIL>
+      <ADDR>23/4 Monipur - 1</ADDR>
+      <JOBS>Purchase Manager</JOBS>
+      <JOINING>08/20/2023</JOINING>
+      <SALARY>35000</SALARY>
+      <DEPT_NAME>Purchasing</DEPT_NAME>
+      <MANAGER_NAME> </MANAGER_NAME>
+    </ROW>
+    <ROW>
+      <ID>103</ID>
+      <NAME>Salman Khan</NAME>
+      <PHONE>01719255005</PHONE>
+      <MAIL>salman@bdisp.com</MAIL>
+      <ADDR>511 Monipur, Mirpur</ADDR>
+      <JOBS>Network Manager</JOBS>
+      <JOINING>07/21/2023</JOINING>
+      <SALARY>40000</SALARY>
+      <DEPT_NAME>Network Engineering</DEPT_NAME>
+      <MANAGER_NAME> </MANAGER_NAME>
+    </ROW>
+    <ROW>
+      <ID>104</ID>
+      <NAME>Nasima Akhter</NAME>
+      <PHONE>01719255008</PHONE>
+      <MAIL>nasima@bdisp.com</MAIL>
+      <ADDR>856 Monipur, Mirpur</ADDR>
+      <JOBS>Customer Service Manager</JOBS>
+      <JOINING>07/20/2023</JOINING>
+      <SALARY>35000</SALARY>
+      <DEPT_NAME>Customer Relations</DEPT_NAME>
+      <MANAGER_NAME> </MANAGER_NAME>
+    </ROW>
+    <ROW>
+      <ID>105</ID>
+      <NAME>Sayed Khokhon</NAME>
+      <PHONE>01719255012</PHONE>
+      <MAIL>sayed@bdisp.com</MAIL>
+      <ADDR>44 West Kafrul</ADDR>
+      <JOBS>Location Manager</JOBS>
+      <JOINING>06/28/2023</JOINING>
+      <SALARY>45000</SALARY>
+      <DEPT_NAME>Location Management</DEPT_NAME>
+      <MANAGER_NAME> </MANAGER_NAME>
+    </ROW>
+    <ROW>
+      <ID>106</ID>
+      <NAME>Partha Majumder</NAME>
+      <PHONE>01719255017</PHONE>
+      <MAIL>partha@bdisp.com</MAIL>
+      <ADDR>191/4 Shewrapara</ADDR>
+      <JOBS>Field Manager</JOBS>
+      <JOINING>09/20/2023</JOINING>
+      <SALARY>35000</SALARY>
+      <DEPT_NAME>Field Operation</DEPT_NAME>
+      <MANAGER_NAME> </MANAGER_NAME>
+    </ROW>
+    <ROW>
+      <ID>107</ID>
+      <NAME>Ayub Bachchu</NAME>
+      <PHONE>01719255022</PHONE>
+      <MAIL>ayub@bdisp.com</MAIL>
+      <ADDR>10/A Senpara</ADDR>
+      <JOBS>Sr. Accountant</JOBS>
+      <JOINING>01/04/2024</JOINING>
+      <SALARY>35000</SALARY>
+      <DEPT_NAME>Accounting</DEPT_NAME>
+      <MANAGER_NAME> </MANAGER_NAME>
+    </ROW>
+    <ROW>
+      <ID>108</ID>
+      <NAME>Fazlur Rahman</NAME>
+      <PHONE>01719255001</PHONE>
+      <MAIL>fazlur@bdisp.com</MAIL>
+      <ADDR>526 Monipur, Mirpur</ADDR>
+      <JOBS>Administration Assistant</JOBS>
+      <JOINING>06/22/2023</JOINING>
+      <SALARY>40000</SALARY>
+      <DEPT_NAME>Administration</DEPT_NAME>
+      <MANAGER_NAME>Jawed Karim</MANAGER_NAME>
+    </ROW>
+    <ROW>
+      <ID>109</ID>
+      <NAME>Omar Ishrak</NAME>
+      <PHONE>01719255003</PHONE>
+      <MAIL>omar@bdisp.com</MAIL>
+      <ADDR>254 Monipur, Mirpur</ADDR>
+      <JOBS>Marketing Analyst</JOBS>
+      <JOINING>08/26/2023</JOINING>
+      <SALARY>35000</SALARY>
+      <DEPT_NAME>Marketing</DEPT_NAME>
+      <MANAGER_NAME>Jamal Islam</MANAGER_NAME>
+    </ROW>
+    <ROW>
+      <ID>110</ID>
+      <NAME>Abul Kashem</NAME>
+      <PHONE>01719255006</PHONE>
+      <MAIL>abul@bdisp.com</MAIL>
+      <ADDR>756 Monipur, Mirpur</ADDR>
+      <JOBS>Network Engineer</JOBS>
+      <JOINING>08/24/2023</JOINING>
+      <SALARY>40000</SALARY>
+      <DEPT_NAME>Network Engineering</DEPT_NAME>
+      <MANAGER_NAME>Salman Khan</MANAGER_NAME>
+    </ROW>
+    <ROW>
+      <ID>111</ID>
+      <NAME>Jamilur Reza</NAME>
+      <PHONE>01719255007</PHONE>
+      <MAIL>jamilur@bdisp.com</MAIL>
+      <ADDR>552 Monipur, Mirpur</ADDR>
+      <JOBS>Network Engineer</JOBS>
+      <JOINING>08/25/2023</JOINING>
+      <SALARY>30000</SALARY>
+      <DEPT_NAME>Network Engineering</DEPT_NAME>
+      <MANAGER_NAME>Salman Khan</MANAGER_NAME>
+    </ROW>
+    <ROW>
+      <ID>112</ID>
+      <NAME>Arun Kumar</NAME>
+      <PHONE>01719255009</PHONE>
+      <MAIL>arun@bdisp.com</MAIL>
+      <ADDR>921 Monipur, Mirpur</ADDR>
+      <JOBS>Customer Service Representative</JOBS>
+      <JOINING>07/26/2023</JOINING>
+      <SALARY>30000</SALARY>
+      <DEPT_NAME>Customer Relations</DEPT_NAME>
+      <MANAGER_NAME>Nasima Akhter</MANAGER_NAME>
+    </ROW>
+    <ROW>
+      <ID>113</ID>
+      <NAME>Chitta Ranjan</NAME>
+      <PHONE>01719255010</PHONE>
+      <MAIL>chitta@bdisp.com</MAIL>
+      <ADDR>52 Mirpur 11</ADDR>
+      <JOBS>Customer Service Representative</JOBS>
+      <JOINING>07/22/2023</JOINING>
+      <SALARY>30000</SALARY>
+      <DEPT_NAME>Customer Relations</DEPT_NAME>
+      <MANAGER_NAME>Nasima Akhter</MANAGER_NAME>
+    </ROW>
+    <ROW>
+      <ID>114</ID>
+      <NAME>Sikdar Haq</NAME>
+      <PHONE>01719255011</PHONE>
+      <MAIL>sikdar@bdisp.com</MAIL>
+      <ADDR>426/1 East Monipur</ADDR>
+      <JOBS>Customer Service Representative</JOBS>
+      <JOINING>07/22/2023</JOINING>
+      <SALARY>30000</SALARY>
+      <DEPT_NAME>Customer Relations</DEPT_NAME>
+      <MANAGER_NAME>Nasima Akhter</MANAGER_NAME>
+    </ROW>
+    <ROW>
+      <ID>115</ID>
+      <NAME>Rafi Hasan</NAME>
+      <PHONE>01719255013</PHONE>
+      <MAIL>rafi@bdisp.com</MAIL>
+      <ADDR>46 West Kafrul</ADDR>
+      <JOBS>Area Manager</JOBS>
+      <JOINING>06/28/2023</JOINING>
+      <SALARY>40000</SALARY>
+      <DEPT_NAME>Location Management</DEPT_NAME>
+      <MANAGER_NAME>Sayed Khokhon</MANAGER_NAME>
+    </ROW>
+    <ROW>
+      <ID>116</ID>
+      <NAME>Jahanara Imam</NAME>
+      <PHONE>01719255014</PHONE>
+      <MAIL>jahanara@bdisp.com</MAIL>
+      <ADDR>89 South Monipur</ADDR>
+      <JOBS>Area Manager</JOBS>
+      <JOINING>06/28/2023</JOINING>
+      <SALARY>40000</SALARY>
+      <DEPT_NAME>Location Management</DEPT_NAME>
+      <MANAGER_NAME>Sayed Khokhon</MANAGER_NAME>
+    </ROW>
+    <ROW>
+      <ID>117</ID>
+      <NAME>Firoz Mahmud</NAME>
+      <PHONE>01719255015</PHONE>
+      <MAIL>firoz@bdisp.com</MAIL>
+      <ADDR>12/5 Kazipara</ADDR>
+      <JOBS>POP Manager</JOBS>
+      <JOINING>07/11/2023</JOINING>
+      <SALARY>30000</SALARY>
+      <DEPT_NAME>Location Management</DEPT_NAME>
+      <MANAGER_NAME>Sayed Khokhon</MANAGER_NAME>
+    </ROW>
+    <ROW>
+      <ID>118</ID>
+      <NAME>Ghulam Murshid</NAME>
+      <PHONE>01719255016</PHONE>
+      <MAIL>ghulam@bdisp.com</MAIL>
+      <ADDR>17/4 Kazipara</ADDR>
+      <JOBS>POP Manager</JOBS>
+      <JOINING>07/20/2023</JOINING>
+      <SALARY>30000</SALARY>
+      <DEPT_NAME>Location Management</DEPT_NAME>
+      <MANAGER_NAME>Sayed Khokhon</MANAGER_NAME>
+    </ROW>
+    <ROW>
+      <ID>119</ID>
+      <NAME>Raja Chanda</NAME>
+      <PHONE>01719255018</PHONE>
+      <MAIL>raja@bdisp.com</MAIL>
+      <ADDR>196 Pallabi</ADDR>
+      <JOBS>Line Technician</JOBS>
+      <JOINING>09/27/2023</JOINING>
+      <SALARY>30000</SALARY>
+      <DEPT_NAME>Field Operation</DEPT_NAME>
+      <MANAGER_NAME>Partha Majumder</MANAGER_NAME>
+    </ROW>
+    <ROW>
+      <ID>120</ID>
+      <NAME>Tareque Masud</NAME>
+      <PHONE>01719255019</PHONE>
+      <MAIL>tareque@bdisp.com</MAIL>
+      <ADDR>38/2 Senpara</ADDR>
+      <JOBS>Line Technician</JOBS>
+      <JOINING>09/27/2023</JOINING>
+      <SALARY>30000</SALARY>
+      <DEPT_NAME>Field Operation</DEPT_NAME>
+      <MANAGER_NAME>Partha Majumder</MANAGER_NAME>
+    </ROW>
+    <ROW>
+      <ID>121</ID>
+      <NAME>Kaushik Taposh</NAME>
+      <PHONE>01719255020</PHONE>
+      <MAIL>kaushik@bdisp.com</MAIL>
+      <ADDR>45/2 Senpara</ADDR>
+      <JOBS>Line Technician</JOBS>
+      <JOINING>09/27/2023</JOINING>
+      <SALARY>30000</SALARY>
+      <DEPT_NAME>Field Operation</DEPT_NAME>
+      <MANAGER_NAME>Partha Majumder</MANAGER_NAME>
+    </ROW>
+    <ROW>
+      <ID>122</ID>
+      <NAME>Zahid Hasan</NAME>
+      <PHONE>01719255021</PHONE>
+      <MAIL>zahid@bdisp.com</MAIL>
+      <ADDR>8/2 Senpara</ADDR>
+      <JOBS>Line Technician</JOBS>
+      <JOINING>05/16/2024</JOINING>
+      <SALARY>30000</SALARY>
+      <DEPT_NAME>Field Operation</DEPT_NAME>
+      <MANAGER_NAME>Partha Majumder</MANAGER_NAME>
+    </ROW>
+  </ROWSET>
+</DOCUMENT>
+

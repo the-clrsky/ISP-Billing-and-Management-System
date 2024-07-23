@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DOCUMENT>
+  <ROWSET>
+    <ROW>
+      <Total>12</Total>
+      <NAME>Taltola</NAME>
+      <ADDRESS>Taltola Dakha</ADDRESS>
+      <Area_Name>Mirpur Model</Area_Name>
+      <POP_MAN>Firoz Mahmud</POP_MAN>
+      <LINE_TECH>Kaushik Taposh</LINE_TECH>
+      <NET_ENG>Abul Kashem</NET_ENG>
+    </ROW>
+    <ROW>
+      <Total>12</Total>
+      <NAME>Mirpur - 2</NAME>
+      <ADDRESS>24/1, Barek Mollar Mor</ADDRESS>
+      <Area_Name>Mirpur Model</Area_Name>
+      <POP_MAN>Firoz Mahmud</POP_MAN>
+      <LINE_TECH>Raja Chanda</LINE_TECH>
+      <NET_ENG>Jamilur Reza</NET_ENG>
+    </ROW>
+    <ROW>
+      <Total>12</Total>
+      <NAME>Shewrapara</NAME>
+      <ADDRESS>422/1, East Shewrapara</ADDRESS>
+      <Area_Name>Mirpur Model</Area_Name>
+      <POP_MAN> </POP_MAN>
+      <LINE_TECH> </LINE_TECH>
+      <NET_ENG> </NET_ENG>
+    </ROW>
+    <ROW>
+      <Total>12</Total>
+      <NAME>Pallabi</NAME>
+      <ADDRESS>25/B, Pallabi</ADDRESS>
+      <Area_Name>Pallabi</Area_Name>
+      <POP_MAN> </POP_MAN>
+      <LINE_TECH> </LINE_TECH>
+      <NET_ENG> </NET_ENG>
+    </ROW>
+    <ROW>
+      <Total>12</Total>
+      <NAME>Darussalam</NAME>
+      <ADDRESS>26/B, Darussalam Mor</ADDRESS>
+      <Area_Name>Darussalam</Area_Name>
+      <POP_MAN> </POP_MAN>
+      <LINE_TECH> </LINE_TECH>
+      <NET_ENG> </NET_ENG>
+    </ROW>
+    <ROW>
+      <Total>12</Total>
+      <NAME>Mohammadpur</NAME>
+      <ADDRESS>Mohammadpur R/A, Road 1</ADDRESS>
+      <Area_Name>Mohammadpur</Area_Name>
+      <POP_MAN> </POP_MAN>
+      <LINE_TECH> </LINE_TECH>
+      <NET_ENG> </NET_ENG>
+    </ROW>
+    <ROW>
+      <Total>12</Total>
+      <NAME>Bijoy Sarani</NAME>
+      <ADDRESS>45, Bijoy Sarani</ADDRESS>
+      <Area_Name>Sher-E-Bangla Nagar</Area_Name>
+      <POP_MAN> </POP_MAN>
+      <LINE_TECH> </LINE_TECH>
+      <NET_ENG> </NET_ENG>
+    </ROW>
+    <ROW>
+      <Total>12</Total>
+      <NAME>Khamar Bari</NAME>
+      <ADDRESS>251, Khamar Bari</ADDRESS>
+      <Area_Name>Sher-E-Bangla Nagar</Area_Name>
+      <POP_MAN> </POP_MAN>
+      <LINE_TECH> </LINE_TECH>
+      <NET_ENG> </NET_ENG>
+    </ROW>
+    <ROW>
+      <Total>12</Total>
+      <NAME>Rupnagar</NAME>
+      <ADDRESS>27/1, Mirpur - 14</ADDRESS>
+      <Area_Name>Rupnagar</Area_Name>
+      <POP_MAN> </POP_MAN>
+      <LINE_TECH> </LINE_TECH>
+      <NET_ENG> </NET_ENG>
+    </ROW>
+    <ROW>
+      <Total>12</Total>
+      <NAME>Mirpur - 10</NAME>
+      <ADDRESS>45/2, Mirpur 10</ADDRESS>
+      <Area_Name>Shah Ali</Area_Name>
+      <POP_MAN> </POP_MAN>
+      <LINE_TECH> </LINE_TECH>
+      <NET_ENG> </NET_ENG>
+    </ROW>
+    <ROW>
+      <Total>12</Total>
+      <NAME>Kalabagan</NAME>
+      <ADDRESS>42/1, Kalabagan Mor</ADDRESS>
+      <Area_Name>Kalabagan</Area_Name>
+      <POP_MAN> </POP_MAN>
+      <LINE_TECH> </LINE_TECH>
+      <NET_ENG> </NET_ENG>
+    </ROW>
+    <ROW>
+      <Total>12</Total>
+      <NAME>Dhanmondi</NAME>
+      <ADDRESS>Dhanmondi 27 Mor</ADDRESS>
+      <Area_Name>Dhanmondi</Area_Name>
+      <POP_MAN> </POP_MAN>
+      <LINE_TECH> </LINE_TECH>
+      <NET_ENG> </NET_ENG>
+    </ROW>
+  </ROWSET>
+</DOCUMENT>
+

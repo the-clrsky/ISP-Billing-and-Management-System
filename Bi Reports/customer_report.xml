@@ -1,0 +1,1018 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DOCUMENT>
+  <ROWSET>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Jack Terrell</C_NAME>
+      <PHONE>1956250016</PHONE>
+      <C_START>09/01/2023</C_START>
+      <PKG>Diamond</PKG>
+      <AREA>Mirpur Model</AREA>
+      <POP>Shewrapara</POP>
+      <C_TYPE>Home</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Emily Mckinney</C_NAME>
+      <PHONE>1956250017</PHONE>
+      <C_START>06/01/2023</C_START>
+      <PKG>Gold</PKG>
+      <AREA>Sher-E-Bangla Nagar</AREA>
+      <POP>Bijoy Sarani</POP>
+      <C_TYPE>Home</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Robert Sullivan</C_NAME>
+      <PHONE>1956250019</PHONE>
+      <C_START>06/01/2023</C_START>
+      <PKG>Gold</PKG>
+      <AREA>Mirpur Model</AREA>
+      <POP>Mirpur - 2</POP>
+      <C_TYPE>Home</C_TYPE>
+      <STATUS>Inactive</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Anne Hart</C_NAME>
+      <PHONE>1956250037</PHONE>
+      <C_START>10/01/2023</C_START>
+      <PKG>Business Gold</PKG>
+      <AREA>Darussalam</AREA>
+      <POP>Darussalam</POP>
+      <C_TYPE>Corporate</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Jessica Lee</C_NAME>
+      <PHONE>1956250038</PHONE>
+      <C_START>11/01/2023</C_START>
+      <PKG>Business Gold</PKG>
+      <AREA>Darussalam</AREA>
+      <POP>Darussalam</POP>
+      <C_TYPE>Corporate</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Matthew Reed</C_NAME>
+      <PHONE>1956250039</PHONE>
+      <C_START>09/01/2023</C_START>
+      <PKG>Business Gold</PKG>
+      <AREA>Darussalam</AREA>
+      <POP>Darussalam</POP>
+      <C_TYPE>Corporate</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Crystal Weaver</C_NAME>
+      <PHONE>1956250037</PHONE>
+      <C_START>11/01/2023</C_START>
+      <PKG>Business Silver</PKG>
+      <AREA>Sher-E-Bangla Nagar</AREA>
+      <POP>Bijoy Sarani</POP>
+      <C_TYPE>Waiver</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Dana Montoya</C_NAME>
+      <PHONE>1956250038</PHONE>
+      <C_START>12/01/2023</C_START>
+      <PKG>Business Silver</PKG>
+      <AREA>Sher-E-Bangla Nagar</AREA>
+      <POP>Bijoy Sarani</POP>
+      <C_TYPE>Corporate</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Nicole Fleming</C_NAME>
+      <PHONE>1956250039</PHONE>
+      <C_START>10/01/2023</C_START>
+      <PKG>Business Silver</PKG>
+      <AREA>Sher-E-Bangla Nagar</AREA>
+      <POP>Bijoy Sarani</POP>
+      <C_TYPE>Corporate</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Tim Herring</C_NAME>
+      <PHONE>1956250021</PHONE>
+      <C_START>06/01/2023</C_START>
+      <PKG>Gold</PKG>
+      <AREA>Shah Ali</AREA>
+      <POP>Mirpur - 10</POP>
+      <C_TYPE>Home</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Craig Gilbert</C_NAME>
+      <PHONE>1956250022</PHONE>
+      <C_START>06/01/2023</C_START>
+      <PKG>Gold</PKG>
+      <AREA>Shah Ali</AREA>
+      <POP>Mirpur - 10</POP>
+      <C_TYPE>Home</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Maureen Oconnor</C_NAME>
+      <PHONE>1956250023</PHONE>
+      <C_START>06/01/2023</C_START>
+      <PKG>Gold</PKG>
+      <AREA>Shah Ali</AREA>
+      <POP>Mirpur - 10</POP>
+      <C_TYPE>Home</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Thomas Robertson</C_NAME>
+      <PHONE>1956250025</PHONE>
+      <C_START>09/01/2023</C_START>
+      <PKG>Diamond</PKG>
+      <AREA>Kalabagan</AREA>
+      <POP>Kalabagan</POP>
+      <C_TYPE>Home</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>David Kerr</C_NAME>
+      <PHONE>1956250026</PHONE>
+      <C_START>09/01/2023</C_START>
+      <PKG>Diamond</PKG>
+      <AREA>Kalabagan</AREA>
+      <POP>Kalabagan</POP>
+      <C_TYPE>Home</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Heidi Martinez</C_NAME>
+      <PHONE>1956250027</PHONE>
+      <C_START>09/01/2023</C_START>
+      <PKG>Bronze</PKG>
+      <AREA>Kalabagan</AREA>
+      <POP>Kalabagan</POP>
+      <C_TYPE>Home</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Amber Harper</C_NAME>
+      <PHONE>1956250029</PHONE>
+      <C_START>10/01/2023</C_START>
+      <PKG>Diamond</PKG>
+      <AREA>Mohammadpur</AREA>
+      <POP>Mohammadpur</POP>
+      <C_TYPE>Home</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Charles Page</C_NAME>
+      <PHONE>1956250030</PHONE>
+      <C_START>11/01/2023</C_START>
+      <PKG>Platinum</PKG>
+      <AREA>Mohammadpur</AREA>
+      <POP>Mohammadpur</POP>
+      <C_TYPE>Home</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Karen Mercer</C_NAME>
+      <PHONE>1956250031</PHONE>
+      <C_START>12/01/2023</C_START>
+      <PKG>Platinum</PKG>
+      <AREA>Mohammadpur</AREA>
+      <POP>Mohammadpur</POP>
+      <C_TYPE>Home</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Kelly Chapman</C_NAME>
+      <PHONE>1956250033</PHONE>
+      <C_START>11/01/2023</C_START>
+      <PKG>Platinum</PKG>
+      <AREA>Dhanmondi</AREA>
+      <POP>Dhanmondi</POP>
+      <C_TYPE>Home</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Leslie Daniels</C_NAME>
+      <PHONE>1956250034</PHONE>
+      <C_START>12/01/2023</C_START>
+      <PKG>Platinum</PKG>
+      <AREA>Dhanmondi</AREA>
+      <POP>Dhanmondi</POP>
+      <C_TYPE>Home</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Charlotte Hayes</C_NAME>
+      <PHONE>1956250035</PHONE>
+      <C_START>11/01/2023</C_START>
+      <PKG>Platinum</PKG>
+      <AREA>Dhanmondi</AREA>
+      <POP>Dhanmondi</POP>
+      <C_TYPE>Home</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Samantha Bird</C_NAME>
+      <PHONE>1956250001</PHONE>
+      <C_START>06/01/2023</C_START>
+      <PKG>Gold</PKG>
+      <AREA>Mirpur Model</AREA>
+      <POP>Mirpur - 2</POP>
+      <C_TYPE>Home</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Brad Arellano</C_NAME>
+      <PHONE>1956250002</PHONE>
+      <C_START>06/01/2023</C_START>
+      <PKG>Diamond</PKG>
+      <AREA>Mirpur Model</AREA>
+      <POP>Shewrapara</POP>
+      <C_TYPE>Home</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Ashley Gutierrez</C_NAME>
+      <PHONE>1956250003</PHONE>
+      <C_START>07/01/2023</C_START>
+      <PKG>Bronze</PKG>
+      <AREA>Shah Ali</AREA>
+      <POP>Mirpur - 10</POP>
+      <C_TYPE>Home</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Michelle Miller</C_NAME>
+      <PHONE>1956250004</PHONE>
+      <C_START>06/01/2023</C_START>
+      <PKG>Gold</PKG>
+      <AREA>Pallabi</AREA>
+      <POP>Pallabi</POP>
+      <C_TYPE>Home</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Jessica Nolan</C_NAME>
+      <PHONE>1956250005</PHONE>
+      <C_START>08/01/2023</C_START>
+      <PKG>Platinum</PKG>
+      <AREA>Pallabi</AREA>
+      <POP>Pallabi</POP>
+      <C_TYPE>Home</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Stephanie Harris</C_NAME>
+      <PHONE>1956250006</PHONE>
+      <C_START>06/01/2023</C_START>
+      <PKG>Bronze</PKG>
+      <AREA>Rupnagar</AREA>
+      <POP>Rupnagar</POP>
+      <C_TYPE>Home</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Angela Chang</C_NAME>
+      <PHONE>1956250007</PHONE>
+      <C_START>09/01/2023</C_START>
+      <PKG>Gold</PKG>
+      <AREA>Kalabagan</AREA>
+      <POP>Kalabagan</POP>
+      <C_TYPE>Home</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Caroline Dawson</C_NAME>
+      <PHONE>1956250008</PHONE>
+      <C_START>10/01/2023</C_START>
+      <PKG>SME Cloud</PKG>
+      <AREA>Mirpur Model</AREA>
+      <POP>Mirpur - 2</POP>
+      <C_TYPE>Corporate</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Natalie Foster</C_NAME>
+      <PHONE>1956250009</PHONE>
+      <C_START>07/01/2023</C_START>
+      <PKG>SME Star</PKG>
+      <AREA>Mirpur Model</AREA>
+      <POP>Shewrapara</POP>
+      <C_TYPE>Corporate</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>John Fisher</C_NAME>
+      <PHONE>1956250010</PHONE>
+      <C_START>01/01/2024</C_START>
+      <PKG>Diamond</PKG>
+      <AREA>Mirpur Model</AREA>
+      <POP>Mirpur - 2</POP>
+      <C_TYPE>Home</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Marie Calderon</C_NAME>
+      <PHONE>1956250011</PHONE>
+      <C_START>09/01/2023</C_START>
+      <PKG>SME Sky</PKG>
+      <AREA>Sher-E-Bangla Nagar</AREA>
+      <POP>Bijoy Sarani</POP>
+      <C_TYPE>Corporate</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Jody Hampton</C_NAME>
+      <PHONE>1956250012</PHONE>
+      <C_START>11/01/2023</C_START>
+      <PKG>SME Star</PKG>
+      <AREA>Sher-E-Bangla Nagar</AREA>
+      <POP>Khamar Bari</POP>
+      <C_TYPE>Corporate</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Elizabeth Harris</C_NAME>
+      <PHONE>1956250013</PHONE>
+      <C_START>08/01/2023</C_START>
+      <PKG>Business Silver</PKG>
+      <AREA>Kalabagan</AREA>
+      <POP>Kalabagan</POP>
+      <C_TYPE>Corporate</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Luis Nelson</C_NAME>
+      <PHONE>1956250014</PHONE>
+      <C_START>09/01/2023</C_START>
+      <PKG>Business Gold</PKG>
+      <AREA>Darussalam</AREA>
+      <POP>Darussalam</POP>
+      <C_TYPE>Corporate</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Mary Garner</C_NAME>
+      <PHONE>1956250015</PHONE>
+      <C_START>07/01/2023</C_START>
+      <PKG>SME Star</PKG>
+      <AREA>Mirpur Model</AREA>
+      <POP>Mirpur - 2</POP>
+      <C_TYPE>Corporate</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Jack Terrell</C_NAME>
+      <PHONE>1956250016</PHONE>
+      <C_START>09/01/2023</C_START>
+      <PKG>Diamond</PKG>
+      <AREA>Mirpur Model</AREA>
+      <POP>Shewrapara</POP>
+      <C_TYPE>Home</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Emily Mckinney</C_NAME>
+      <PHONE>1956250017</PHONE>
+      <C_START>06/01/2023</C_START>
+      <PKG>Gold</PKG>
+      <AREA>Sher-E-Bangla Nagar</AREA>
+      <POP>Bijoy Sarani</POP>
+      <C_TYPE>Home</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Robert Sullivan</C_NAME>
+      <PHONE>1956250019</PHONE>
+      <C_START>06/01/2023</C_START>
+      <PKG>Gold</PKG>
+      <AREA>Mirpur Model</AREA>
+      <POP>Mirpur - 2</POP>
+      <C_TYPE>Home</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Azad Faruq</C_NAME>
+      <PHONE>1956250020</PHONE>
+      <C_START>01/01/2023</C_START>
+      <PKG>Bronze</PKG>
+      <AREA>Mirpur Model</AREA>
+      <POP>Shewrapara</POP>
+      <C_TYPE>Home</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Arif Hasan</C_NAME>
+      <PHONE>1956250021</PHONE>
+      <C_START>02/02/2023</C_START>
+      <PKG>Silver</PKG>
+      <AREA>Pallabi</AREA>
+      <POP>Mirpur - 10</POP>
+      <C_TYPE>Home</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Alo Hossen</C_NAME>
+      <PHONE>1956250022</PHONE>
+      <C_START>03/06/2023</C_START>
+      <PKG>Gold</PKG>
+      <AREA>Darussalam</AREA>
+      <POP>Pallabi</POP>
+      <C_TYPE>Home</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Asif Islam</C_NAME>
+      <PHONE>1956250023</PHONE>
+      <C_START>04/07/2023</C_START>
+      <PKG>Diamond</PKG>
+      <AREA>Mohammadpur</AREA>
+      <POP>Rupnagar</POP>
+      <C_TYPE>Home</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Arian Mahmud</C_NAME>
+      <PHONE>1956250024</PHONE>
+      <C_START>05/09/2023</C_START>
+      <PKG>Platinum</PKG>
+      <AREA>Sher-E-Bangla Nagar</AREA>
+      <POP>Bijoy Sarani</POP>
+      <C_TYPE>Home</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Ashiq Vuiiahh</C_NAME>
+      <PHONE>1956250025</PHONE>
+      <C_START>06/10/2023</C_START>
+      <PKG>SME Cloud</PKG>
+      <AREA>Rupnagar</AREA>
+      <POP>Khamar Bari</POP>
+      <C_TYPE>Home</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Alom Mia</C_NAME>
+      <PHONE>1956250026</PHONE>
+      <C_START>07/12/2023</C_START>
+      <PKG>SME Sky</PKG>
+      <AREA>Shah Ali</AREA>
+      <POP>Kalabagan</POP>
+      <C_TYPE>Corporate</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Afifa Khatun</C_NAME>
+      <PHONE>1956250027</PHONE>
+      <C_START>08/01/2023</C_START>
+      <PKG>SME Star</PKG>
+      <AREA>Kafrul</AREA>
+      <POP>Darussalam</POP>
+      <C_TYPE>Corporate</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Any Qurat</C_NAME>
+      <PHONE>1956250028</PHONE>
+      <C_START>09/02/2023</C_START>
+      <PKG>Business Silver</PKG>
+      <AREA>Kalabagan</AREA>
+      <POP>Mohammadpur</POP>
+      <C_TYPE>Corporate</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Abida Mahmud</C_NAME>
+      <PHONE>1956250029</PHONE>
+      <C_START>10/03/2023</C_START>
+      <PKG>Business Gold</PKG>
+      <AREA>Mirpur Model</AREA>
+      <POP>Dhanmondi</POP>
+      <C_TYPE>Corporate</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Adiba Tasnim</C_NAME>
+      <PHONE>1956250030</PHONE>
+      <C_START>11/04/2023</C_START>
+      <PKG>Bronze</PKG>
+      <AREA>Pallabi</AREA>
+      <POP>Shewrapara</POP>
+      <C_TYPE>Corporate</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Arifa Islam</C_NAME>
+      <PHONE>1956250031</PHONE>
+      <C_START>11/05/2023</C_START>
+      <PKG>Silver</PKG>
+      <AREA>Darussalam</AREA>
+      <POP>Mirpur - 10</POP>
+      <C_TYPE>Home</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Ariba Tasnim</C_NAME>
+      <PHONE>1956250032</PHONE>
+      <C_START>11/06/2023</C_START>
+      <PKG>Gold</PKG>
+      <AREA>Mohammadpur</AREA>
+      <POP>Pallabi</POP>
+      <C_TYPE>Home</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Busra Islam</C_NAME>
+      <PHONE>1956250033</PHONE>
+      <C_START>11/07/2023</C_START>
+      <PKG>Diamond</PKG>
+      <AREA>Sher-E-Bangla Nagar</AREA>
+      <POP>Rupnagar</POP>
+      <C_TYPE>Home</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Bipasha Hayat</C_NAME>
+      <PHONE>1956250034</PHONE>
+      <C_START>11/08/2023</C_START>
+      <PKG>Platinum</PKG>
+      <AREA>Rupnagar</AREA>
+      <POP>Bijoy Sarani</POP>
+      <C_TYPE>Home</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Bijoy Roy</C_NAME>
+      <PHONE>1956250035</PHONE>
+      <C_START>11/09/2023</C_START>
+      <PKG>SME Cloud</PKG>
+      <AREA>Shah Ali</AREA>
+      <POP>Khamar Bari</POP>
+      <C_TYPE>Home</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Benu Begom</C_NAME>
+      <PHONE>1956250036</PHONE>
+      <C_START>11/10/2023</C_START>
+      <PKG>SME Sky</PKG>
+      <AREA>Kafrul</AREA>
+      <POP>Kalabagan</POP>
+      <C_TYPE>Home</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Begom Sultana</C_NAME>
+      <PHONE>1956250037</PHONE>
+      <C_START>11/11/2023</C_START>
+      <PKG>SME Star</PKG>
+      <AREA>Kalabagan</AREA>
+      <POP>Darussalam</POP>
+      <C_TYPE>Home</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Barek Mia</C_NAME>
+      <PHONE>1956250038</PHONE>
+      <C_START>11/12/2023</C_START>
+      <PKG>Business Silver</PKG>
+      <AREA>Mirpur Model</AREA>
+      <POP>Mohammadpur</POP>
+      <C_TYPE>Home</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Bellal Hossen</C_NAME>
+      <PHONE>1956250039</PHONE>
+      <C_START>05/01/2023</C_START>
+      <PKG>Business Gold</PKG>
+      <AREA>Pallabi</AREA>
+      <POP>Dhanmondi</POP>
+      <C_TYPE>Home</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Bisshash Roy</C_NAME>
+      <PHONE>1956250040</PHONE>
+      <C_START>05/02/2023</C_START>
+      <PKG>Bronze</PKG>
+      <AREA>Darussalam</AREA>
+      <POP>Shewrapara</POP>
+      <C_TYPE>Home</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Babor Khaled</C_NAME>
+      <PHONE>1956250041</PHONE>
+      <C_START>05/03/2023</C_START>
+      <PKG>Silver</PKG>
+      <AREA>Mohammadpur</AREA>
+      <POP>Mirpur - 10</POP>
+      <C_TYPE>Home</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Bulbul Hok</C_NAME>
+      <PHONE>1956250042</PHONE>
+      <C_START>05/04/2023</C_START>
+      <PKG>Gold</PKG>
+      <AREA>Sher-E-Bangla Nagar</AREA>
+      <POP>Pallabi</POP>
+      <C_TYPE>Home</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Bilkis Begom</C_NAME>
+      <PHONE>1956250043</PHONE>
+      <C_START>05/05/2023</C_START>
+      <PKG>Diamond</PKG>
+      <AREA>Rupnagar</AREA>
+      <POP>Rupnagar</POP>
+      <C_TYPE>Home</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Nasima Banu</C_NAME>
+      <PHONE>1956250044</PHONE>
+      <C_START>05/06/2023</C_START>
+      <PKG>Platinum</PKG>
+      <AREA>Shah Ali</AREA>
+      <POP>Bijoy Sarani</POP>
+      <C_TYPE>Home</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Boshir Ahmed</C_NAME>
+      <PHONE>1956250045</PHONE>
+      <C_START>05/07/2023</C_START>
+      <PKG>SME Cloud</PKG>
+      <AREA>Kafrul</AREA>
+      <POP>Khamar Bari</POP>
+      <C_TYPE>Home</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Bashar Mollah</C_NAME>
+      <PHONE>1956250046</PHONE>
+      <C_START>05/08/2023</C_START>
+      <PKG>SME Sky</PKG>
+      <AREA>Kalabagan</AREA>
+      <POP>Kalabagan</POP>
+      <C_TYPE>Home</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Bokul Fool</C_NAME>
+      <PHONE>1956250047</PHONE>
+      <C_START>05/09/2023</C_START>
+      <PKG>SME Star</PKG>
+      <AREA>Mirpur Model</AREA>
+      <POP>Darussalam</POP>
+      <C_TYPE>Home</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Bodrul Alom</C_NAME>
+      <PHONE>1956250048</PHONE>
+      <C_START>05/10/2023</C_START>
+      <PKG>Business Silver</PKG>
+      <AREA>Pallabi</AREA>
+      <POP>Mohammadpur</POP>
+      <C_TYPE>Home</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Sarika Jaman</C_NAME>
+      <PHONE>1956250049</PHONE>
+      <C_START>05/11/2023</C_START>
+      <PKG>Business Gold</PKG>
+      <AREA>Darussalam</AREA>
+      <POP>Dhanmondi</POP>
+      <C_TYPE>Corporate</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Sokina Khatun</C_NAME>
+      <PHONE>1956250050</PHONE>
+      <C_START>05/12/2023</C_START>
+      <PKG>Bronze</PKG>
+      <AREA>Mohammadpur</AREA>
+      <POP>Shewrapara</POP>
+      <C_TYPE>Corporate</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Sanjana Sakib</C_NAME>
+      <PHONE>1956250051</PHONE>
+      <C_START>07/01/2023</C_START>
+      <PKG>Silver</PKG>
+      <AREA>Sher-E-Bangla Nagar</AREA>
+      <POP>Mirpur - 10</POP>
+      <C_TYPE>Corporate</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Saara Farwa</C_NAME>
+      <PHONE>1956250052</PHONE>
+      <C_START>07/02/2023</C_START>
+      <PKG>Gold</PKG>
+      <AREA>Rupnagar</AREA>
+      <POP>Pallabi</POP>
+      <C_TYPE>Corporate</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Shostika Kormokar</C_NAME>
+      <PHONE>1956250053</PHONE>
+      <C_START>07/03/2023</C_START>
+      <PKG>Diamond</PKG>
+      <AREA>Shah Ali</AREA>
+      <POP>Rupnagar</POP>
+      <C_TYPE>Corporate</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Soha Ali</C_NAME>
+      <PHONE>1956250054</PHONE>
+      <C_START>07/04/2023</C_START>
+      <PKG>Platinum</PKG>
+      <AREA>Kafrul</AREA>
+      <POP>Bijoy Sarani</POP>
+      <C_TYPE>Corporate</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Shondip Kumar</C_NAME>
+      <PHONE>1956250055</PHONE>
+      <C_START>07/05/2023</C_START>
+      <PKG>SME Cloud</PKG>
+      <AREA>Kalabagan</AREA>
+      <POP>Khamar Bari</POP>
+      <C_TYPE>Home</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Sonia Kazi</C_NAME>
+      <PHONE>1956250056</PHONE>
+      <C_START>07/06/2023</C_START>
+      <PKG>SME Sky</PKG>
+      <AREA>Mirpur Model</AREA>
+      <POP>Kalabagan</POP>
+      <C_TYPE>Home</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Suraya Hossen</C_NAME>
+      <PHONE>1956250057</PHONE>
+      <C_START>07/07/2023</C_START>
+      <PKG>SME Star</PKG>
+      <AREA>Pallabi</AREA>
+      <POP>Darussalam</POP>
+      <C_TYPE>Home</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Shila Jaman</C_NAME>
+      <PHONE>1956250058</PHONE>
+      <C_START>07/08/2023</C_START>
+      <PKG>Business Silver</PKG>
+      <AREA>Darussalam</AREA>
+      <POP>Mohammadpur</POP>
+      <C_TYPE>Home</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Shewli Begom</C_NAME>
+      <PHONE>1956250059</PHONE>
+      <C_START>07/09/2023</C_START>
+      <PKG>Business Gold</PKG>
+      <AREA>Mohammadpur</AREA>
+      <POP>Dhanmondi</POP>
+      <C_TYPE>Home</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Shimu Jannat</C_NAME>
+      <PHONE>1956250060</PHONE>
+      <C_START>07/10/2023</C_START>
+      <PKG>Bronze</PKG>
+      <AREA>Sher-E-Bangla Nagar</AREA>
+      <POP>Shewrapara</POP>
+      <C_TYPE>Home</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Sumaya Farwa</C_NAME>
+      <PHONE>1956250061</PHONE>
+      <C_START>07/11/2023</C_START>
+      <PKG>Silver</PKG>
+      <AREA>Rupnagar</AREA>
+      <POP>Mirpur - 10</POP>
+      <C_TYPE>Home</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Sabiha Akter</C_NAME>
+      <PHONE>1956250062</PHONE>
+      <C_START>07/12/2023</C_START>
+      <PKG>Gold</PKG>
+      <AREA>Shah Ali</AREA>
+      <POP>Pallabi</POP>
+      <C_TYPE>Home</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Samara Raghat</C_NAME>
+      <PHONE>1956250063</PHONE>
+      <C_START>09/01/2023</C_START>
+      <PKG>Diamond</PKG>
+      <AREA>Kafrul</AREA>
+      <POP>Rupnagar</POP>
+      <C_TYPE>Home</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Selina Akter</C_NAME>
+      <PHONE>1956250064</PHONE>
+      <C_START>09/02/2023</C_START>
+      <PKG>Platinum</PKG>
+      <AREA>Kalabagan</AREA>
+      <POP>Bijoy Sarani</POP>
+      <C_TYPE>Home</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Hajera Sultana</C_NAME>
+      <PHONE>1956250065</PHONE>
+      <C_START>09/03/2023</C_START>
+      <PKG>SME Cloud</PKG>
+      <AREA>Mirpur Model</AREA>
+      <POP>Khamar Bari</POP>
+      <C_TYPE>Home</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Osman Gani</C_NAME>
+      <PHONE>1956250066</PHONE>
+      <C_START>09/04/2023</C_START>
+      <PKG>SME Sky</PKG>
+      <AREA>Pallabi</AREA>
+      <POP>Kalabagan</POP>
+      <C_TYPE>Home</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Harun Rashid</C_NAME>
+      <PHONE>1956250067</PHONE>
+      <C_START>09/05/2023</C_START>
+      <PKG>SME Star</PKG>
+      <AREA>Darussalam</AREA>
+      <POP>Darussalam</POP>
+      <C_TYPE>Home</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Mamun Rashid</C_NAME>
+      <PHONE>1956250068</PHONE>
+      <C_START>09/06/2023</C_START>
+      <PKG>Business Silver</PKG>
+      <AREA>Mohammadpur</AREA>
+      <POP>Mohammadpur</POP>
+      <C_TYPE>Home</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Nasir Alom</C_NAME>
+      <PHONE>1956250069</PHONE>
+      <C_START>09/07/2023</C_START>
+      <PKG>Business Gold</PKG>
+      <AREA>Sher-E-Bangla Nagar</AREA>
+      <POP>Dhanmondi</POP>
+      <C_TYPE>Home</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Nirob Showrov</C_NAME>
+      <PHONE>1956250070</PHONE>
+      <C_START>09/08/2023</C_START>
+      <PKG>Bronze</PKG>
+      <AREA>Rupnagar</AREA>
+      <POP>Shewrapara</POP>
+      <C_TYPE>Corporate</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Athouy Tasnim</C_NAME>
+      <PHONE>1956250071</PHONE>
+      <C_START>09/09/2023</C_START>
+      <PKG>Silver</PKG>
+      <AREA>Shah Ali</AREA>
+      <POP>Mirpur - 10</POP>
+      <C_TYPE>Corporate</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+    <ROW>
+      <TOTAL>92</TOTAL>
+      <C_NAME>Farija Mehjabin</C_NAME>
+      <PHONE>1956250072</PHONE>
+      <C_START>09/10/2023</C_START>
+      <PKG>Gold</PKG>
+      <AREA>Kafrul</AREA>
+      <POP>Pallabi</POP>
+      <C_TYPE>Corporate</C_TYPE>
+      <STATUS>Active</STATUS>
+    </ROW>
+  </ROWSET>
+</DOCUMENT>
+

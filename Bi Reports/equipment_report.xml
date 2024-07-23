@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DOCUMENT>
+  <ROWSET>
+    <ROW>
+      <ID>90190</ID>
+      <TYPE>Router</TYPE>
+      <MODEL>D-Link</MODEL>
+      <PRICE>1900</PRICE>
+      <PURCHASE>07/15/2023</PURCHASE>
+      <INSTALL>08/19/2023</INSTALL>
+      <STATUS>In Use</STATUS>
+      <AREA>Mirpur Model</AREA>
+      <POP>Mirpur - 2</POP>
+    </ROW>
+    <ROW>
+      <ID>90200</ID>
+      <TYPE>Switch</TYPE>
+      <MODEL>D-Link</MODEL>
+      <PRICE/>
+      <PURCHASE>07/15/2023</PURCHASE>
+      <INSTALL>08/19/2023</INSTALL>
+      <STATUS>Not in Use</STATUS>
+      <AREA>Mirpur Model</AREA>
+      <POP>Mirpur - 2</POP>
+    </ROW>
+    <ROW>
+      <ID>90050</ID>
+      <TYPE>Switch</TYPE>
+      <MODEL>Mikrotik</MODEL>
+      <PRICE>4000</PRICE>
+      <PURCHASE>10/10/2023</PURCHASE>
+      <INSTALL/>
+      <STATUS>Not in Use</STATUS>
+      <AREA>Pallabi</AREA>
+      <POP>Mirpur - 2</POP>
+    </ROW>
+    <ROW>
+      <ID>90020</ID>
+      <TYPE>Switch</TYPE>
+      <MODEL>TP-Link</MODEL>
+      <PRICE>1600</PRICE>
+      <PURCHASE>10/10/2023</PURCHASE>
+      <INSTALL/>
+      <STATUS>Not in Use</STATUS>
+      <AREA>Mirpur Model</AREA>
+      <POP>Mirpur - 10</POP>
+    </ROW>
+    <ROW>
+      <ID>90030</ID>
+      <TYPE>Cat-6 Cable</TYPE>
+      <MODEL>D-Link</MODEL>
+      <PRICE>1000</PRICE>
+      <PURCHASE>10/10/2023</PURCHASE>
+      <INSTALL/>
+      <STATUS>Not in Use</STATUS>
+      <AREA>Mirpur Model</AREA>
+      <POP>Mirpur - 10</POP>
+    </ROW>
+    <ROW>
+      <ID>90180</ID>
+      <TYPE>Cat-5E Cable</TYPE>
+      <MODEL>D-Link</MODEL>
+      <PRICE/>
+      <PURCHASE>07/15/2023</PURCHASE>
+      <INSTALL>08/19/2023</INSTALL>
+      <STATUS>In Use</STATUS>
+      <AREA>Shah Ali</AREA>
+      <POP>Mirpur - 10</POP>
+    </ROW>
+    <ROW>
+      <ID>90170</ID>
+      <TYPE>Switch</TYPE>
+      <MODEL>Cisco</MODEL>
+      <PRICE/>
+      <PURCHASE>07/15/2023</PURCHASE>
+      <INSTALL>08/19/2023</INSTALL>
+      <STATUS>In Use</STATUS>
+      <AREA>Pallabi</AREA>
+      <POP>Pallabi</POP>
+    </ROW>
+    <ROW>
+      <ID>90000</ID>
+      <TYPE>ONU</TYPE>
+      <MODEL>Huawei</MODEL>
+      <PRICE>1700</PRICE>
+      <PURCHASE>10/10/2023</PURCHASE>
+      <INSTALL/>
+      <STATUS>Not in Use</STATUS>
+      <AREA>Darussalam</AREA>
+      <POP>Pallabi</POP>
+    </ROW>
+    <ROW>
+      <ID>90160</ID>
+      <TYPE>ONU</TYPE>
+      <MODEL>TP-Link</MODEL>
+      <PRICE>4000</PRICE>
+      <PURCHASE>07/15/2023</PURCHASE>
+      <INSTALL>08/19/2023</INSTALL>
+      <STATUS>In Use</STATUS>
+      <AREA>Rupnagar</AREA>
+      <POP>Rupnagar</POP>
+    </ROW>
+    <ROW>
+      <ID>90150</ID>
+      <TYPE>Switch</TYPE>
+      <MODEL>Mikrotik</MODEL>
+      <PRICE>1667</PRICE>
+      <PURCHASE>07/15/2023</PURCHASE>
+      <INSTALL>08/19/2023</INSTALL>
+      <STATUS>In Use</STATUS>
+      <AREA>Sher-E-Bangla Nagar</AREA>
+      <POP>Khamar Bari</POP>
+    </ROW>
+    <ROW>
+      <ID>90090</ID>
+      <TYPE>Router</TYPE>
+      <MODEL>D-Link</MODEL>
+      <PRICE>2500</PRICE>
+      <PURCHASE>10/10/2023</PURCHASE>
+      <INSTALL/>
+      <STATUS>Not in Use</STATUS>
+      <AREA>Kafrul</AREA>
+      <POP>Kalabagan</POP>
+    </ROW>
+    <ROW>
+      <ID>90100</ID>
+      <TYPE>Switch</TYPE>
+      <MODEL>D-Link</MODEL>
+      <PRICE>2708</PRICE>
+      <PURCHASE>10/10/2023</PURCHASE>
+      <INSTALL/>
+      <STATUS>Not in Use</STATUS>
+      <AREA>Pallabi</AREA>
+      <POP>Mohammadpur</POP>
+    </ROW>
+    <ROW>
+      <ID>90010</ID>
+      <TYPE>ONU</TYPE>
+      <MODEL>Huawei</MODEL>
+      <PRICE>2400</PRICE>
+      <PURCHASE>10/10/2023</PURCHASE>
+      <INSTALL/>
+      <STATUS>Not in Use</STATUS>
+      <AREA>Kafrul</AREA>
+      <POP>Dhanmondi</POP>
+    </ROW>
+    <ROW>
+      <ID>90120</ID>
+      <TYPE>Switch</TYPE>
+      <MODEL>TP-Link</MODEL>
+      <PRICE>3562</PRICE>
+      <PURCHASE>07/15/2023</PURCHASE>
+      <INSTALL/>
+      <STATUS>Not in Use</STATUS>
+      <AREA>Kalabagan</AREA>
+      <POP/>
+    </ROW>
+    <ROW>
+      <ID>90070</ID>
+      <TYPE>Switch</TYPE>
+      <MODEL>Cisco</MODEL>
+      <PRICE>1800</PRICE>
+      <PURCHASE>10/10/2023</PURCHASE>
+      <INSTALL/>
+      <STATUS>Not in Use</STATUS>
+      <AREA/>
+      <POP/>
+    </ROW>
+    <ROW>
+      <ID>90080</ID>
+      <TYPE>Cat-5E Cable</TYPE>
+      <MODEL>D-Link</MODEL>
+      <PRICE/>
+      <PURCHASE>10/10/2023</PURCHASE>
+      <INSTALL/>
+      <STATUS>Not in Use</STATUS>
+      <AREA/>
+      <POP/>
+    </ROW>
+    <ROW>
+      <ID>90130</ID>
+      <TYPE>Cat-6 Cable</TYPE>
+      <MODEL>D-Link</MODEL>
+      <PRICE/>
+      <PURCHASE>07/15/2023</PURCHASE>
+      <INSTALL/>
+      <STATUS>Not in Use</STATUS>
+      <AREA/>
+      <POP/>
+    </ROW>
+    <ROW>
+      <ID>9000</ID>
+      <TYPE>ONU</TYPE>
+      <MODEL>Huawei</MODEL>
+      <PRICE>2600</PRICE>
+      <PURCHASE>10/10/2023</PURCHASE>
+      <INSTALL/>
+      <STATUS>Not In use</STATUS>
+      <AREA/>
+      <POP/>
+    </ROW>
+    <ROW>
+      <ID>90060</ID>
+      <TYPE>ONU</TYPE>
+      <MODEL>TP-Link</MODEL>
+      <PRICE>1940</PRICE>
+      <PURCHASE>10/10/2023</PURCHASE>
+      <INSTALL/>
+      <STATUS>Not in Use</STATUS>
+      <AREA/>
+      <POP/>
+    </ROW>
+    <ROW>
+      <ID>90040</ID>
+      <TYPE>Router</TYPE>
+      <MODEL>TP-Link</MODEL>
+      <PRICE>1500</PRICE>
+      <PURCHASE>10/10/2023</PURCHASE>
+      <INSTALL/>
+      <STATUS>Not in Use</STATUS>
+      <AREA/>
+      <POP/>
+    </ROW>
+    <ROW>
+      <ID>90140</ID>
+      <TYPE>Router</TYPE>
+      <MODEL>TP-Link</MODEL>
+      <PRICE>1400</PRICE>
+      <PURCHASE>07/15/2023</PURCHASE>
+      <INSTALL/>
+      <STATUS>Not in Use</STATUS>
+      <AREA/>
+      <POP/>
+    </ROW>
+    <ROW>
+      <ID>90110</ID>
+      <TYPE>ONU</TYPE>
+      <MODEL>Huawei</MODEL>
+      <PRICE>3000</PRICE>
+      <PURCHASE>07/15/2023</PURCHASE>
+      <INSTALL/>
+      <STATUS>Not in Use</STATUS>
+      <AREA/>
+      <POP/>
+    </ROW>
+  </ROWSET>
+</DOCUMENT>
+

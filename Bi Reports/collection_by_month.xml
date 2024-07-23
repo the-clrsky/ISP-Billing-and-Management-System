@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DOCUMENT>
+  <ROWSET>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>September, 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Azad Faruq</CUST_NAME>
+      <AMOUNT>1500</AMOUNT>
+      <INVOICE_ID>60185</INVOICE_ID>
+      <COLLECTION_DATE>09/13/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Upay</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>September, 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Arif Hasan</CUST_NAME>
+      <AMOUNT>2000</AMOUNT>
+      <INVOICE_ID>60186</INVOICE_ID>
+      <COLLECTION_DATE>09/14/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Rocker</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>September, 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Alo Hossen</CUST_NAME>
+      <AMOUNT>2500</AMOUNT>
+      <INVOICE_ID>60187</INVOICE_ID>
+      <COLLECTION_DATE>09/15/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Bkash</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>September, 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Asif Islam</CUST_NAME>
+      <AMOUNT>3000</AMOUNT>
+      <INVOICE_ID>60188</INVOICE_ID>
+      <COLLECTION_DATE>09/16/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Upay</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>September, 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Bellal Hossen</CUST_NAME>
+      <AMOUNT>1500</AMOUNT>
+      <INVOICE_ID>60189</INVOICE_ID>
+      <COLLECTION_DATE>09/17/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Rocker</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>September, 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Bisshash Roy</CUST_NAME>
+      <AMOUNT>2000</AMOUNT>
+      <INVOICE_ID>60190</INVOICE_ID>
+      <COLLECTION_DATE>09/18/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Bkash</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>September, 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Babor Khaled</CUST_NAME>
+      <AMOUNT>2500</AMOUNT>
+      <INVOICE_ID>60191</INVOICE_ID>
+      <COLLECTION_DATE>09/19/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Upay</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>September, 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Bulbul Hok</CUST_NAME>
+      <AMOUNT>3000</AMOUNT>
+      <INVOICE_ID>60192</INVOICE_ID>
+      <COLLECTION_DATE>09/20/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Rocker</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>September, 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Bilkis Begom</CUST_NAME>
+      <AMOUNT>1500</AMOUNT>
+      <INVOICE_ID>60193</INVOICE_ID>
+      <COLLECTION_DATE>09/21/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Bkash</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>September, 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Nasima Banu</CUST_NAME>
+      <AMOUNT>2000</AMOUNT>
+      <INVOICE_ID>60194</INVOICE_ID>
+      <COLLECTION_DATE>09/22/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Upay</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>September, 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Boshir Ahmed</CUST_NAME>
+      <AMOUNT>2500</AMOUNT>
+      <INVOICE_ID>60195</INVOICE_ID>
+      <COLLECTION_DATE>09/23/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Rocker</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>September, 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Bashar Mollah</CUST_NAME>
+      <AMOUNT>3000</AMOUNT>
+      <INVOICE_ID>60196</INVOICE_ID>
+      <COLLECTION_DATE>09/24/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Bkash</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>September, 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Arian Mahmud</CUST_NAME>
+      <AMOUNT>1500</AMOUNT>
+      <INVOICE_ID>60197</INVOICE_ID>
+      <COLLECTION_DATE>09/25/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Upay</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>September, 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Bokul Fool</CUST_NAME>
+      <AMOUNT>2000</AMOUNT>
+      <INVOICE_ID>60198</INVOICE_ID>
+      <COLLECTION_DATE>09/26/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Rocker</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>September, 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Bodrul Alom</CUST_NAME>
+      <AMOUNT>2500</AMOUNT>
+      <INVOICE_ID>60199</INVOICE_ID>
+      <COLLECTION_DATE>09/27/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Bkash</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>September, 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Sarika Jaman</CUST_NAME>
+      <AMOUNT>3000</AMOUNT>
+      <INVOICE_ID>60200</INVOICE_ID>
+      <COLLECTION_DATE>09/28/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Upay</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>September, 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Sokina Khatun</CUST_NAME>
+      <AMOUNT>1500</AMOUNT>
+      <INVOICE_ID>60201</INVOICE_ID>
+      <COLLECTION_DATE>09/29/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Rocker</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>September, 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Emily Mckinney</CUST_NAME>
+      <AMOUNT>2000</AMOUNT>
+      <INVOICE_ID>60202</INVOICE_ID>
+      <COLLECTION_DATE>09/30/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Bkash</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>October  , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Robert Sullivan</CUST_NAME>
+      <AMOUNT>2500</AMOUNT>
+      <INVOICE_ID>60203</INVOICE_ID>
+      <COLLECTION_DATE>10/01/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Upay</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>October  , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Tim Herring</CUST_NAME>
+      <AMOUNT>3000</AMOUNT>
+      <INVOICE_ID>60204</INVOICE_ID>
+      <COLLECTION_DATE>10/02/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Rocker</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>October  , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Craig Gilbert</CUST_NAME>
+      <AMOUNT>1500</AMOUNT>
+      <INVOICE_ID>60205</INVOICE_ID>
+      <COLLECTION_DATE>10/03/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Bkash</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>October  , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Maureen Oconnor</CUST_NAME>
+      <AMOUNT>2000</AMOUNT>
+      <INVOICE_ID>60206</INVOICE_ID>
+      <COLLECTION_DATE>10/04/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Upay</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>October  , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Samantha Bird</CUST_NAME>
+      <AMOUNT>2500</AMOUNT>
+      <INVOICE_ID>60207</INVOICE_ID>
+      <COLLECTION_DATE>10/05/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Rocker</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>October  , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Brad Arellano</CUST_NAME>
+      <AMOUNT>3000</AMOUNT>
+      <INVOICE_ID>60208</INVOICE_ID>
+      <COLLECTION_DATE>10/06/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Bkash</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>October  , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Michelle Miller</CUST_NAME>
+      <AMOUNT>1500</AMOUNT>
+      <INVOICE_ID>60209</INVOICE_ID>
+      <COLLECTION_DATE>10/07/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Upay</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>October  , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Stephanie Harris</CUST_NAME>
+      <AMOUNT>2000</AMOUNT>
+      <INVOICE_ID>60210</INVOICE_ID>
+      <COLLECTION_DATE>10/08/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Rocker</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>October  , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Emily Mckinney</CUST_NAME>
+      <AMOUNT>2500</AMOUNT>
+      <INVOICE_ID>60211</INVOICE_ID>
+      <COLLECTION_DATE>10/09/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Bkash</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>October  , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Robert Sullivan</CUST_NAME>
+      <AMOUNT>3000</AMOUNT>
+      <INVOICE_ID>60212</INVOICE_ID>
+      <COLLECTION_DATE>10/10/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Upay</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>October  , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Ashiq Vuiiahh</CUST_NAME>
+      <AMOUNT>1500</AMOUNT>
+      <INVOICE_ID>60213</INVOICE_ID>
+      <COLLECTION_DATE>10/11/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Rocker</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>October  , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Ashley Gutierrez</CUST_NAME>
+      <AMOUNT>2000</AMOUNT>
+      <INVOICE_ID>60214</INVOICE_ID>
+      <COLLECTION_DATE>10/12/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Bkash</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>October  , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Natalie Foster</CUST_NAME>
+      <AMOUNT>2500</AMOUNT>
+      <INVOICE_ID>60215</INVOICE_ID>
+      <COLLECTION_DATE>10/13/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Upay</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>October  , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Mary Garner</CUST_NAME>
+      <AMOUNT>3000</AMOUNT>
+      <INVOICE_ID>60216</INVOICE_ID>
+      <COLLECTION_DATE>10/14/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Rocker</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>October  , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Sanjana Sakib</CUST_NAME>
+      <AMOUNT>1500</AMOUNT>
+      <INVOICE_ID>60217</INVOICE_ID>
+      <COLLECTION_DATE>10/15/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Bkash</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>October  , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Saara Farwa</CUST_NAME>
+      <AMOUNT>2000</AMOUNT>
+      <INVOICE_ID>60218</INVOICE_ID>
+      <COLLECTION_DATE>10/16/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Upay</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>October  , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Shostika Kormokar</CUST_NAME>
+      <AMOUNT>2500</AMOUNT>
+      <INVOICE_ID>60219</INVOICE_ID>
+      <COLLECTION_DATE>10/17/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Rocker</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>October  , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Soha Ali</CUST_NAME>
+      <AMOUNT>3000</AMOUNT>
+      <INVOICE_ID>60220</INVOICE_ID>
+      <COLLECTION_DATE>10/18/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Bkash</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>October  , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Shondip Kumar</CUST_NAME>
+      <AMOUNT>1500</AMOUNT>
+      <INVOICE_ID>60221</INVOICE_ID>
+      <COLLECTION_DATE>10/19/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Upay</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>October  , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Sonia Kazi</CUST_NAME>
+      <AMOUNT>2000</AMOUNT>
+      <INVOICE_ID>60222</INVOICE_ID>
+      <COLLECTION_DATE>10/20/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Rocker</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>October  , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Suraya Hossen</CUST_NAME>
+      <AMOUNT>2500</AMOUNT>
+      <INVOICE_ID>60223</INVOICE_ID>
+      <COLLECTION_DATE>10/21/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Bkash</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>October  , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Shila Jaman</CUST_NAME>
+      <AMOUNT>3000</AMOUNT>
+      <INVOICE_ID>60224</INVOICE_ID>
+      <COLLECTION_DATE>10/22/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Upay</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>October  , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Shewli Begom</CUST_NAME>
+      <AMOUNT>1500</AMOUNT>
+      <INVOICE_ID>60225</INVOICE_ID>
+      <COLLECTION_DATE>10/23/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Rocker</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>October  , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Shimu Jannat</CUST_NAME>
+      <AMOUNT>2000</AMOUNT>
+      <INVOICE_ID>60226</INVOICE_ID>
+      <COLLECTION_DATE>10/24/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Bkash</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>October  , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Sumaya Farwa</CUST_NAME>
+      <AMOUNT>2500</AMOUNT>
+      <INVOICE_ID>60227</INVOICE_ID>
+      <COLLECTION_DATE>10/25/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Upay</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>October  , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Alom Mia</CUST_NAME>
+      <AMOUNT>3000</AMOUNT>
+      <INVOICE_ID>60228</INVOICE_ID>
+      <COLLECTION_DATE>10/26/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Rocker</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>October  , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Sabiha Akter</CUST_NAME>
+      <AMOUNT>1500</AMOUNT>
+      <INVOICE_ID>60229</INVOICE_ID>
+      <COLLECTION_DATE>10/27/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Bkash</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>October  , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Jessica Nolan</CUST_NAME>
+      <AMOUNT>2000</AMOUNT>
+      <INVOICE_ID>60230</INVOICE_ID>
+      <COLLECTION_DATE>10/28/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Upay</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>October  , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Elizabeth Harris</CUST_NAME>
+      <AMOUNT>2500</AMOUNT>
+      <INVOICE_ID>60231</INVOICE_ID>
+      <COLLECTION_DATE>10/29/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Rocker</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>October  , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Afifa Khatun</CUST_NAME>
+      <AMOUNT>3000</AMOUNT>
+      <INVOICE_ID>60232</INVOICE_ID>
+      <COLLECTION_DATE>10/30/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Bkash</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>October  , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Jack Terrell</CUST_NAME>
+      <AMOUNT>1500</AMOUNT>
+      <INVOICE_ID>60233</INVOICE_ID>
+      <COLLECTION_DATE>10/31/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Upay</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>November , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Matthew Reed</CUST_NAME>
+      <AMOUNT>2000</AMOUNT>
+      <INVOICE_ID>60234</INVOICE_ID>
+      <COLLECTION_DATE>11/01/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Rocker</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>November , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Thomas Robertson</CUST_NAME>
+      <AMOUNT>2500</AMOUNT>
+      <INVOICE_ID>60235</INVOICE_ID>
+      <COLLECTION_DATE>11/02/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Bkash</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>November , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>David Kerr</CUST_NAME>
+      <AMOUNT>3000</AMOUNT>
+      <INVOICE_ID>60236</INVOICE_ID>
+      <COLLECTION_DATE>11/03/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Upay</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>November , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Heidi Martinez</CUST_NAME>
+      <AMOUNT>1500</AMOUNT>
+      <INVOICE_ID>60237</INVOICE_ID>
+      <COLLECTION_DATE>11/04/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Rocker</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>November , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Angela Chang</CUST_NAME>
+      <AMOUNT>2000</AMOUNT>
+      <INVOICE_ID>60238</INVOICE_ID>
+      <COLLECTION_DATE>11/05/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Bkash</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>November , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Marie Calderon</CUST_NAME>
+      <AMOUNT>2500</AMOUNT>
+      <INVOICE_ID>60239</INVOICE_ID>
+      <COLLECTION_DATE>11/06/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Upay</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>November , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Luis Nelson</CUST_NAME>
+      <AMOUNT>3000</AMOUNT>
+      <INVOICE_ID>60240</INVOICE_ID>
+      <COLLECTION_DATE>11/07/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Rocker</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>November , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Jack Terrell</CUST_NAME>
+      <AMOUNT>1500</AMOUNT>
+      <INVOICE_ID>60241</INVOICE_ID>
+      <COLLECTION_DATE>11/08/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Bkash</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>November , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Samara Raghat</CUST_NAME>
+      <AMOUNT>2000</AMOUNT>
+      <INVOICE_ID>60242</INVOICE_ID>
+      <COLLECTION_DATE>11/09/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Upay</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>November , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Any Qurat</CUST_NAME>
+      <AMOUNT>2500</AMOUNT>
+      <INVOICE_ID>60243</INVOICE_ID>
+      <COLLECTION_DATE>11/10/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Rocker</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>November , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Selina Akter</CUST_NAME>
+      <AMOUNT>3000</AMOUNT>
+      <INVOICE_ID>60244</INVOICE_ID>
+      <COLLECTION_DATE>11/11/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Bkash</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>November , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Hajera Sultana</CUST_NAME>
+      <AMOUNT>1500</AMOUNT>
+      <INVOICE_ID>60245</INVOICE_ID>
+      <COLLECTION_DATE>11/12/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Upay</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>November , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Osman Gani</CUST_NAME>
+      <AMOUNT>2000</AMOUNT>
+      <INVOICE_ID>60246</INVOICE_ID>
+      <COLLECTION_DATE>11/13/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Rocker</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>November , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Harun Rashid</CUST_NAME>
+      <AMOUNT>2500</AMOUNT>
+      <INVOICE_ID>60247</INVOICE_ID>
+      <COLLECTION_DATE>11/14/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Bkash</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>November , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Mamun Rashid</CUST_NAME>
+      <AMOUNT>3000</AMOUNT>
+      <INVOICE_ID>60248</INVOICE_ID>
+      <COLLECTION_DATE>11/15/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Upay</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>November , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Nasir Alom</CUST_NAME>
+      <AMOUNT>1500</AMOUNT>
+      <INVOICE_ID>60249</INVOICE_ID>
+      <COLLECTION_DATE>11/16/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Rocker</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>November , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Nirob Showrov</CUST_NAME>
+      <AMOUNT>2000</AMOUNT>
+      <INVOICE_ID>60250</INVOICE_ID>
+      <COLLECTION_DATE>11/17/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Bkash</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>November , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Athouy Tasnim</CUST_NAME>
+      <AMOUNT>2500</AMOUNT>
+      <INVOICE_ID>60251</INVOICE_ID>
+      <COLLECTION_DATE>11/18/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Upay</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>November , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Farija Mehjabin</CUST_NAME>
+      <AMOUNT>3000</AMOUNT>
+      <INVOICE_ID>60252</INVOICE_ID>
+      <COLLECTION_DATE>11/19/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Rocker</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>November , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Anne Hart</CUST_NAME>
+      <AMOUNT>1500</AMOUNT>
+      <INVOICE_ID>60253</INVOICE_ID>
+      <COLLECTION_DATE>11/20/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Bkash</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>November , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Nicole Fleming</CUST_NAME>
+      <AMOUNT>2000</AMOUNT>
+      <INVOICE_ID>60254</INVOICE_ID>
+      <COLLECTION_DATE>11/21/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Upay</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>November , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Amber Harper</CUST_NAME>
+      <AMOUNT>2500</AMOUNT>
+      <INVOICE_ID>60255</INVOICE_ID>
+      <COLLECTION_DATE>11/22/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Rocker</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>November , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Caroline Dawson</CUST_NAME>
+      <AMOUNT>3000</AMOUNT>
+      <INVOICE_ID>60256</INVOICE_ID>
+      <COLLECTION_DATE>11/23/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Bkash</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>November , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Abida Mahmud</CUST_NAME>
+      <AMOUNT>1500</AMOUNT>
+      <INVOICE_ID>60257</INVOICE_ID>
+      <COLLECTION_DATE>11/24/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Upay</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>November , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Jessica Lee</CUST_NAME>
+      <AMOUNT>2000</AMOUNT>
+      <INVOICE_ID>60258</INVOICE_ID>
+      <COLLECTION_DATE>11/25/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Rocker</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>November , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Crystal Weaver</CUST_NAME>
+      <AMOUNT>2500</AMOUNT>
+      <INVOICE_ID>60259</INVOICE_ID>
+      <COLLECTION_DATE>11/26/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Bkash</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>November , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Charles Page</CUST_NAME>
+      <AMOUNT>3000</AMOUNT>
+      <INVOICE_ID>60260</INVOICE_ID>
+      <COLLECTION_DATE>11/27/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Upay</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>November , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Kelly Chapman</CUST_NAME>
+      <AMOUNT>1500</AMOUNT>
+      <INVOICE_ID>60261</INVOICE_ID>
+      <COLLECTION_DATE>11/28/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Rocker</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>November , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Charlotte Hayes</CUST_NAME>
+      <AMOUNT>2000</AMOUNT>
+      <INVOICE_ID>60262</INVOICE_ID>
+      <COLLECTION_DATE>11/29/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Bkash</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>November , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Jody Hampton</CUST_NAME>
+      <AMOUNT>2500</AMOUNT>
+      <INVOICE_ID>60263</INVOICE_ID>
+      <COLLECTION_DATE>11/30/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Upay</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>December , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Adiba Tasnim</CUST_NAME>
+      <AMOUNT>3000</AMOUNT>
+      <INVOICE_ID>60264</INVOICE_ID>
+      <COLLECTION_DATE>12/01/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Rocker</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>December , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Arifa Islam</CUST_NAME>
+      <AMOUNT>1500</AMOUNT>
+      <INVOICE_ID>60265</INVOICE_ID>
+      <COLLECTION_DATE>12/02/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Bkash</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>December , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Ariba Tasnim</CUST_NAME>
+      <AMOUNT>2000</AMOUNT>
+      <INVOICE_ID>60266</INVOICE_ID>
+      <COLLECTION_DATE>12/03/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Upay</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>December , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Busra Islam</CUST_NAME>
+      <AMOUNT>2500</AMOUNT>
+      <INVOICE_ID>60267</INVOICE_ID>
+      <COLLECTION_DATE>12/04/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Rocker</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>December , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Bipasha Hayat</CUST_NAME>
+      <AMOUNT>3000</AMOUNT>
+      <INVOICE_ID>60268</INVOICE_ID>
+      <COLLECTION_DATE>12/05/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Bkash</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>December , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Bijoy Roy</CUST_NAME>
+      <AMOUNT>1500</AMOUNT>
+      <INVOICE_ID>60269</INVOICE_ID>
+      <COLLECTION_DATE>12/06/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Upay</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>December , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Benu Begom</CUST_NAME>
+      <AMOUNT>2000</AMOUNT>
+      <INVOICE_ID>60270</INVOICE_ID>
+      <COLLECTION_DATE>12/07/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Rocker</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>December , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Begom Sultana</CUST_NAME>
+      <AMOUNT>2500</AMOUNT>
+      <INVOICE_ID>60271</INVOICE_ID>
+      <COLLECTION_DATE>12/08/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Bkash</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>December , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Barek Mia</CUST_NAME>
+      <AMOUNT>3000</AMOUNT>
+      <INVOICE_ID>60272</INVOICE_ID>
+      <COLLECTION_DATE>12/09/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Upay</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>December , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Dana Montoya</CUST_NAME>
+      <AMOUNT>1500</AMOUNT>
+      <INVOICE_ID>60273</INVOICE_ID>
+      <COLLECTION_DATE>12/10/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Rocker</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>December , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Karen Mercer</CUST_NAME>
+      <AMOUNT>2000</AMOUNT>
+      <INVOICE_ID>60274</INVOICE_ID>
+      <COLLECTION_DATE>12/11/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Bkash</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>December , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Leslie Daniels</CUST_NAME>
+      <AMOUNT>2500</AMOUNT>
+      <INVOICE_ID>60275</INVOICE_ID>
+      <COLLECTION_DATE>12/12/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Upay</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>December , 2023</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>John Fisher</CUST_NAME>
+      <AMOUNT>3000</AMOUNT>
+      <INVOICE_ID>60276</INVOICE_ID>
+      <COLLECTION_DATE>12/13/2023</COLLECTION_DATE>
+      <PAYMENT_METHOD>Rocker</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>July     , 2024</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Alo Hossen</CUST_NAME>
+      <AMOUNT>2500</AMOUNT>
+      <INVOICE_ID>60095</INVOICE_ID>
+      <COLLECTION_DATE>07/14/2024</COLLECTION_DATE>
+      <PAYMENT_METHOD>Cash</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>July     , 2024</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Azad Faruq</CUST_NAME>
+      <AMOUNT>1500</AMOUNT>
+      <INVOICE_ID>60093</INVOICE_ID>
+      <COLLECTION_DATE>07/14/2024</COLLECTION_DATE>
+      <PAYMENT_METHOD>bKash</PAYMENT_METHOD>
+    </ROW>
+    <ROW>
+      <Month_x0020_Name_x002C__x0020_Year>July     , 2024</Month_x0020_Name_x002C__x0020_Year>
+      <CUST_NAME>Babor Khaled</CUST_NAME>
+      <AMOUNT>2500</AMOUNT>
+      <INVOICE_ID>60191</INVOICE_ID>
+      <COLLECTION_DATE>07/14/2024</COLLECTION_DATE>
+      <PAYMENT_METHOD>Cash</PAYMENT_METHOD>
+    </ROW>
+  </ROWSET>
+</DOCUMENT>
+

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DOCUMENT>
+  <ROWSET>
+    <ROW>
+      <AREA_NAME>Darussalam</AREA_NAME>
+      <THANA>Darussalam</THANA>
+      <CITY>Dhaka</CITY>
+      <CITY_CORP>Dhaka North</CITY_CORP>
+      <CUSTOMERS>0</CUSTOMERS>
+      <TOTAL_AREAS>10</TOTAL_AREAS>
+      <D_NORTH>8</D_NORTH>
+      <D_SOUTH>2</D_SOUTH>
+    </ROW>
+    <ROW>
+      <AREA_NAME>Dhanmondi</AREA_NAME>
+      <THANA>Dhanmondi</THANA>
+      <CITY>Dhaka</CITY>
+      <CITY_CORP>Dhaka South</CITY_CORP>
+      <CUSTOMERS>1</CUSTOMERS>
+      <TOTAL_AREAS>10</TOTAL_AREAS>
+      <D_NORTH>8</D_NORTH>
+      <D_SOUTH>2</D_SOUTH>
+    </ROW>
+    <ROW>
+      <AREA_NAME>Kafrul</AREA_NAME>
+      <THANA>Kafrul</THANA>
+      <CITY>Dhaka</CITY>
+      <CITY_CORP>Dhaka North</CITY_CORP>
+      <CUSTOMERS>0</CUSTOMERS>
+      <TOTAL_AREAS>10</TOTAL_AREAS>
+      <D_NORTH>8</D_NORTH>
+      <D_SOUTH>2</D_SOUTH>
+    </ROW>
+    <ROW>
+      <AREA_NAME>Kalabagan</AREA_NAME>
+      <THANA>Kolabagan</THANA>
+      <CITY>Dhaka</CITY>
+      <CITY_CORP>Dhaka South</CITY_CORP>
+      <CUSTOMERS>0</CUSTOMERS>
+      <TOTAL_AREAS>10</TOTAL_AREAS>
+      <D_NORTH>8</D_NORTH>
+      <D_SOUTH>2</D_SOUTH>
+    </ROW>
+    <ROW>
+      <AREA_NAME>Mirpur Model</AREA_NAME>
+      <THANA>Mirpur Model</THANA>
+      <CITY>Dhaka</CITY>
+      <CITY_CORP>Dhaka North</CITY_CORP>
+      <CUSTOMERS>2</CUSTOMERS>
+      <TOTAL_AREAS>10</TOTAL_AREAS>
+      <D_NORTH>8</D_NORTH>
+      <D_SOUTH>2</D_SOUTH>
+    </ROW>
+    <ROW>
+      <AREA_NAME>Mohammadpur</AREA_NAME>
+      <THANA>Mohammadpur</THANA>
+      <CITY>Dhaka</CITY>
+      <CITY_CORP>Dhaka North</CITY_CORP>
+      <CUSTOMERS>0</CUSTOMERS>
+      <TOTAL_AREAS>10</TOTAL_AREAS>
+      <D_NORTH>8</D_NORTH>
+      <D_SOUTH>2</D_SOUTH>
+    </ROW>
+    <ROW>
+      <AREA_NAME>Pallabi</AREA_NAME>
+      <THANA>Pallabi</THANA>
+      <CITY>Dhaka</CITY>
+      <CITY_CORP>Dhaka North</CITY_CORP>
+      <CUSTOMERS>0</CUSTOMERS>
+      <TOTAL_AREAS>10</TOTAL_AREAS>
+      <D_NORTH>8</D_NORTH>
+      <D_SOUTH>2</D_SOUTH>
+    </ROW>
+    <ROW>
+      <AREA_NAME>Rupnagar</AREA_NAME>
+      <THANA>Rupnagar</THANA>
+      <CITY>Dhaka</CITY>
+      <CITY_CORP>Dhaka North</CITY_CORP>
+      <CUSTOMERS>0</CUSTOMERS>
+      <TOTAL_AREAS>10</TOTAL_AREAS>
+      <D_NORTH>8</D_NORTH>
+      <D_SOUTH>2</D_SOUTH>
+    </ROW>
+    <ROW>
+      <AREA_NAME>Shah Ali</AREA_NAME>
+      <THANA>Shah Ali</THANA>
+      <CITY>Dhaka</CITY>
+      <CITY_CORP>Dhaka North</CITY_CORP>
+      <CUSTOMERS>0</CUSTOMERS>
+      <TOTAL_AREAS>10</TOTAL_AREAS>
+      <D_NORTH>8</D_NORTH>
+      <D_SOUTH>2</D_SOUTH>
+    </ROW>
+    <ROW>
+      <AREA_NAME>Sher-E-Bangla Nagar</AREA_NAME>
+      <THANA>Sher-E-Bangla Nagar</THANA>
+      <CITY>Dhaka</CITY>
+      <CITY_CORP>Dhaka North</CITY_CORP>
+      <CUSTOMERS>1</CUSTOMERS>
+      <TOTAL_AREAS>10</TOTAL_AREAS>
+      <D_NORTH>8</D_NORTH>
+      <D_SOUTH>2</D_SOUTH>
+    </ROW>
+  </ROWSET>
+</DOCUMENT>
+
