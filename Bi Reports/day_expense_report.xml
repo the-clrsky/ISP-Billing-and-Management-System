@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DOCUMENT>
+  <ROWSET>
+    <ROW>
+      <EXPENSE_DATE>06/05/2024</EXPENSE_DATE>
+      <DAILY_TOTAL>3600</DAILY_TOTAL>
+      <GROUP_NAME>Food</GROUP_NAME>
+      <ITEM_NAME>Pani</ITEM_NAME>
+      <UNIT_PRICE/>
+      <UNIT_TYPE/>
+      <QUANTITY>50</QUANTITY>
+      <SUBTOTAL>50</SUBTOTAL>
+      <NOTE/>
+      <EMP_NAME> </EMP_NAME>
+    </ROW>
+    <ROW>
+      <EXPENSE_DATE>06/05/2024</EXPENSE_DATE>
+      <DAILY_TOTAL>3600</DAILY_TOTAL>
+      <GROUP_NAME>Food</GROUP_NAME>
+      <ITEM_NAME>22</ITEM_NAME>
+      <UNIT_PRICE>22</UNIT_PRICE>
+      <UNIT_TYPE/>
+      <QUANTITY/>
+      <SUBTOTAL/>
+      <NOTE/>
+      <EMP_NAME> </EMP_NAME>
+    </ROW>
+    <ROW>
+      <EXPENSE_DATE>06/05/2024</EXPENSE_DATE>
+      <DAILY_TOTAL>3600</DAILY_TOTAL>
+      <GROUP_NAME>Food</GROUP_NAME>
+      <ITEM_NAME>Water</ITEM_NAME>
+      <UNIT_PRICE>15</UNIT_PRICE>
+      <UNIT_TYPE>Piece (pc)</UNIT_TYPE>
+      <QUANTITY>1</QUANTITY>
+      <SUBTOTAL>15</SUBTOTAL>
+      <NOTE/>
+      <EMP_NAME>Abul Kashem</EMP_NAME>
+    </ROW>
+    <ROW>
+      <EXPENSE_DATE>06/05/2024</EXPENSE_DATE>
+      <DAILY_TOTAL>3600</DAILY_TOTAL>
+      <GROUP_NAME/>
+      <ITEM_NAME>Table</ITEM_NAME>
+      <UNIT_PRICE>3000</UNIT_PRICE>
+      <UNIT_TYPE/>
+      <QUANTITY>1</QUANTITY>
+      <SUBTOTAL>3000</SUBTOTAL>
+      <NOTE/>
+      <EMP_NAME>Fazlur Rahman</EMP_NAME>
+    </ROW>
+    <ROW>
+      <EXPENSE_DATE>06/05/2024</EXPENSE_DATE>
+      <DAILY_TOTAL>3600</DAILY_TOTAL>
+      <GROUP_NAME/>
+      <ITEM_NAME>Mouse</ITEM_NAME>
+      <UNIT_PRICE>300</UNIT_PRICE>
+      <UNIT_TYPE/>
+      <QUANTITY>2</QUANTITY>
+      <SUBTOTAL>600</SUBTOTAL>
+      <NOTE/>
+      <EMP_NAME>Ayub Bachchu</EMP_NAME>
+    </ROW>
+  </ROWSET>
+</DOCUMENT>
+
