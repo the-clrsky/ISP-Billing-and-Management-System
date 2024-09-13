@@ -1,0 +1,9 @@
+Copy the "ISP_FORMS" folder provided above to the D: drive.
+
+
+Launch the project by starting from the file "HOMEPAGE.fmb".
+
+Demo Admin ID: 1
+Password: 1
+
+##Please utilize the Admin User. Note that some final adjustments weren't applied to the "User" side Forms.##

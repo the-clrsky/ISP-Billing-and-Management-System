@@ -1,0 +1,5 @@
+First, run the appropriate script according to your database installation. 
+Installation scripts are provided in the "Scripts" folder.
+
+Schema Name for the database is: isp_billing
+Schema Password is: isp_billing
